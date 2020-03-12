@@ -1,0 +1,92 @@
+WEAPONS
+
+- Drill > Linc
+- Warmonger > Peacemonger
+
+- Krieg AR > Embrace the Pain/Pain is Power
+- Trash > Brad Luck
+- Contagion > Pestilence
+- Legion > Linoge
+- Mouthpiece > The Killing Word
+- Skeksis > SkekSil
+- Terror > Agonizer 5000
+
+- Rakkman > Night Flyer
+- Demoskag - Night Hawkin
+- Frostbolt > Stalker
+- WorldDestroyer > Kenulox
+
+- Brick > Face-puncher
+- Redistributor > Brainstormer
+- Fork > Redistributor (Unique)
+- Fork2 > Redistributor (Legendary)
+- ZeroForPlayer > Null Pointer
+
+- Doc > The Flood
+- GodMother > King's/Queen's Call
+- Malevolent > Dead Chamber
+- SpyRevolver > Rogue's Sight
+- UniqueWave > T.K's Wave/The Tidal Wave
+
+- Plumber > Superball
+- SuckerPunch > Sellout
+- Mouthpiece2 > Mind-Killer
+- E3 > Vault Hero
+- LGDStorm > Firestorm/Storm
+
+- Sabre > Scorpio XL
+- Sludge > Creeping Death
+- FriendZone > Unreleased
+- Twitch > Unrleased
+- Beans > The Boo +
+- NotAFlamethrower > Long Musker ++
+- SpiderMind > Smart Gun XXL
+
+- Juliet > Juliet's Dazzle (E-Mail)
+- JulietWorldDrop > Juliet's Dazzle (Drop)
+- Echo > Breeder/Echo
+- HandCannon > Moonfire
+- Nurf > Girth Blaster Elite
+- Troy > Occultist
+- Rampager > Stuffed Quadomizer
+- RYNO > R.Y.N.A.H (Unrleased)
+- Swarm > Scourge
+- Brewha > Black Flame
+- Balrog > Chomper
+
+- Damn > Damned
+- CloudBurst - Jericho
+- Prison > Cloud Shoulder
+
+SHIELDS
+
+- Clover > All-in
+- Vamp > Re-Router
+- VersionOmNom > Version 0.m
+- Aurelia > Frozen Heart
+- SlideKick > Red Card
+- SlideKickFrozenHeart > Frozen Snowshoe
+- SlideKickRecharger > Red Card Re-Charger
+- XPLootBooster > Badass Combustor
+
+- BuriedAlive > Mendel's Multivitamin 
+
+- Cryttorak > Band of Sitorak 
+- Radiate > Red Suit
+
+GRENADES 
+
+- BirthdaySurprise > Bouncy Exterminator
+- Kryll - Unreleased
+- Nagate > Nagata
+- MoxiesBosom > Moxxi's Bouncing Pair
+- CashMoneyPreorder > Cheddar Shredder
+- JustDeserts > Chocolate Thunder
+- Shroom > Fungus Among Us
+- Slider > Unreleased
+- FontOfDarkness > Ghast Call
+- HipHop > Tina's Hippity Hopper
+- ToiletBombs > Porcelain Pipe Bomb
+- ToyGrenade > Ultraball
+- ButtStallion > Diamond Butt Bomb
+- ObviousTrap > Whispering Ice

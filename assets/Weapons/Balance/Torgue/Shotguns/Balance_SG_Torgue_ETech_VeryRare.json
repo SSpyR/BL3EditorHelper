@@ -1,0 +1,1328 @@
+[{
+        "export_type": "InventoryBalanceData",
+        "InventoryBalanceStateClass": ["WeaponBalanceStateComponent", "/Script/OakGame"],
+        "InventoryData": ["WT_SG_TOR", "/Game/Gear/Weapons/Shotguns/Torgue/_Shared/_Design/WT_SG_TOR"],
+        "RarityData": ["RarityData_04_VeryRare", "/Game/GameData/Loot/RarityData/RarityData_04_VeryRare"],
+        "Manufacturers": [{
+                "ManufacturerData": ["Torgue", "/Game/Gear/Manufacturers/_Design/Torgue"],
+                "GameStageWeight": {
+                    "MinGameStage": {
+                        "BaseValueConstant": 8.0,
+                        "DataTableValue": {
+                            "DataTable": ["DataTable_GameStage_Schedule", "/Game/GameData/Loot/LootSchedule/DataTable_GameStage_Schedule"],
+                            "RowName": "Manufacturer_ETech",
+                            "ValueName": "MinGameStage_17_2500317646FAD2F4916D158835B29E83"
+                        },
+                        "BaseValueAttribute": {
+                            "export": 0
+                        },
+                        "AttributeInitializer": {
+                            "export": 0
+                        },
+                        "BaseValueScale": 1.0
+                    },
+                    "MaxGameStage": {
+                        "BaseValueConstant": 8.0,
+                        "DataTableValue": {
+                            "DataTable": ["DataTable_GameStage_Schedule", "/Game/GameData/Loot/LootSchedule/DataTable_GameStage_Schedule"],
+                            "RowName": "Manufacturer_ETech",
+                            "ValueName": "MaxGameStage_18_5DDD0AF343807440C74B37A083027F1C"
+                        },
+                        "BaseValueAttribute": {
+                            "export": 0
+                        },
+                        "AttributeInitializer": {
+                            "export": 0
+                        },
+                        "BaseValueScale": 1.0
+                    }
+                },
+                "PartSelectionOverrideData": {
+                    "export": 0
+                }
+            }
+        ],
+        "RuntimeGenericPartList": {
+            "bEnabled": true,
+            "PartList": [{
+                    "PartData": {
+                        "export": 0
+                    },
+                    "Weight": {
+                        "BaseValueConstant": 1.0,
+                        "DataTableValue": {
+                            "DataTable": {
+                                "export": 0
+                            },
+                            "RowName": "None",
+                            "ValueName": "None"
+                        },
+                        "BaseValueAttribute": ["Att_EndGame_NoneChanceGuns", "/Game/Gear/Weapons/_Shared/_Design/EndGameParts/DropWeight/Att_EndGame_NoneChanceGuns"],
+                        "AttributeInitializer": {
+                            "export": 0
+                        },
+                        "BaseValueScale": 1.0
+                    }
+                }, {
+                    "PartData": ["GPart_All_SkillEnd_SplashDamage", "/Game/Gear/Weapons/_Shared/_Design/EndGameParts/_Generic/SkillEnd_SplashDamage/GPart_All_SkillEnd_SplashDamage"],
+                    "Weight": {
+                        "BaseValueConstant": 1.0,
+                        "DataTableValue": {
+                            "DataTable": {
+                                "export": 0
+                            },
+                            "RowName": "None",
+                            "ValueName": "None"
+                        },
+                        "BaseValueAttribute": ["Att_EndGame_GenericPartChance", "/Game/Gear/Weapons/_Shared/_Design/EndGameParts/DropWeight/Att_EndGame_GenericPartChance"],
+                        "AttributeInitializer": {
+                            "export": 0
+                        },
+                        "BaseValueScale": 1.0
+                    }
+                }, {
+                    "PartData": ["GPart_All_SkillEnd_AccuracyHandling", "/Game/Gear/Weapons/_Shared/_Design/EndGameParts/_Generic/SkillEnd_AccuracyHandling/GPart_All_SkillEnd_AccuracyHandling"],
+                    "Weight": {
+                        "BaseValueConstant": 1.0,
+                        "DataTableValue": {
+                            "DataTable": {
+                                "export": 0
+                            },
+                            "RowName": "None",
+                            "ValueName": "None"
+                        },
+                        "BaseValueAttribute": ["Att_EndGame_GenericPartChance", "/Game/Gear/Weapons/_Shared/_Design/EndGameParts/DropWeight/Att_EndGame_GenericPartChance"],
+                        "AttributeInitializer": {
+                            "export": 0
+                        },
+                        "BaseValueScale": 1.0
+                    }
+                }, {
+                    "PartData": ["GPart_All_SkillEnd_ProjectileSpeed", "/Game/Gear/Weapons/_Shared/_Design/EndGameParts/_Generic/SkillEnd_ProjectileSpeed/GPart_All_SkillEnd_ProjectileSpeed"],
+                    "Weight": {
+                        "BaseValueConstant": 1.0,
+                        "DataTableValue": {
+                            "DataTable": {
+                                "export": 0
+                            },
+                            "RowName": "None",
+                            "ValueName": "None"
+                        },
+                        "BaseValueAttribute": ["Att_EndGame_GenericPartChance", "/Game/Gear/Weapons/_Shared/_Design/EndGameParts/DropWeight/Att_EndGame_GenericPartChance"],
+                        "AttributeInitializer": {
+                            "export": 0
+                        },
+                        "BaseValueScale": 1.0
+                    }
+                }, {
+                    "PartData": ["GPart_All_SkillEnd_CritDamage", "/Game/Gear/Weapons/_Shared/_Design/EndGameParts/_Generic/SkillEnd_CritDamage/GPart_All_SkillEnd_CritDamage"],
+                    "Weight": {
+                        "BaseValueConstant": 1.0,
+                        "DataTableValue": {
+                            "DataTable": {
+                                "export": 0
+                            },
+                            "RowName": "None",
+                            "ValueName": "None"
+                        },
+                        "BaseValueAttribute": ["Att_EndGame_GenericPartChance", "/Game/Gear/Weapons/_Shared/_Design/EndGameParts/DropWeight/Att_EndGame_GenericPartChance"],
+                        "AttributeInitializer": {
+                            "export": 0
+                        },
+                        "BaseValueScale": 1.0
+                    }
+                }, {
+                    "PartData": ["GPart_All_SkillEnd_EleChanceDamage", "/Game/Gear/Weapons/_Shared/_Design/EndGameParts/_Generic/SkillEnd_EleChanceDamage/GPart_All_SkillEnd_EleChanceDamage"],
+                    "Weight": {
+                        "BaseValueConstant": 1.0,
+                        "DataTableValue": {
+                            "DataTable": {
+                                "export": 0
+                            },
+                            "RowName": "None",
+                            "ValueName": "None"
+                        },
+                        "BaseValueAttribute": ["Att_EndGame_GenericPartChance", "/Game/Gear/Weapons/_Shared/_Design/EndGameParts/DropWeight/Att_EndGame_GenericPartChance"],
+                        "AttributeInitializer": {
+                            "export": 0
+                        },
+                        "BaseValueScale": 1.0
+                    }
+                }, {
+                    "PartData": ["GPart_All_SkillEnd_FireRateReload", "/Game/Gear/Weapons/_Shared/_Design/EndGameParts/_Generic/SkillEnd_FireRateReload/GPart_All_SkillEnd_FireRateReload"],
+                    "Weight": {
+                        "BaseValueConstant": 1.0,
+                        "DataTableValue": {
+                            "DataTable": {
+                                "export": 0
+                            },
+                            "RowName": "None",
+                            "ValueName": "None"
+                        },
+                        "BaseValueAttribute": ["Att_EndGame_GenericPartChance", "/Game/Gear/Weapons/_Shared/_Design/EndGameParts/DropWeight/Att_EndGame_GenericPartChance"],
+                        "AttributeInitializer": {
+                            "export": 0
+                        },
+                        "BaseValueScale": 1.0
+                    }
+                }, {
+                    "PartData": ["GPart_All_SkillEnd_LifeSteal", "/Game/Gear/Weapons/_Shared/_Design/EndGameParts/_Generic/SkillEnd_LifeSteal/GPart_All_SkillEnd_LifeSteal"],
+                    "Weight": {
+                        "BaseValueConstant": 1.0,
+                        "DataTableValue": {
+                            "DataTable": {
+                                "export": 0
+                            },
+                            "RowName": "None",
+                            "ValueName": "None"
+                        },
+                        "BaseValueAttribute": ["Att_EndGame_GenericPartChance", "/Game/Gear/Weapons/_Shared/_Design/EndGameParts/DropWeight/Att_EndGame_GenericPartChance"],
+                        "AttributeInitializer": {
+                            "export": 0
+                        },
+                        "BaseValueScale": 1.0
+                    }
+                }, {
+                    "PartData": ["GPart_All_SkillEnd_MeleeDamage", "/Game/Gear/Weapons/_Shared/_Design/EndGameParts/_Generic/SkillEnd_MeleeDamage/GPart_All_SkillEnd_MeleeDamage"],
+                    "Weight": {
+                        "BaseValueConstant": 1.0,
+                        "DataTableValue": {
+                            "DataTable": {
+                                "export": 0
+                            },
+                            "RowName": "None",
+                            "ValueName": "None"
+                        },
+                        "BaseValueAttribute": ["Att_EndGame_GenericPartChance", "/Game/Gear/Weapons/_Shared/_Design/EndGameParts/DropWeight/Att_EndGame_GenericPartChance"],
+                        "AttributeInitializer": {
+                            "export": 0
+                        },
+                        "BaseValueScale": 1.0
+                    }
+                }, {
+                    "PartData": ["GPart_All_SkillEnd_UniqueEnemyDamage", "/Game/Gear/Weapons/_Shared/_Design/EndGameParts/_Generic/SkillEnd_UniqueEnemyDamage/GPart_All_SkillEnd_UniqueEnemyDamage"],
+                    "Weight": {
+                        "BaseValueConstant": 1.0,
+                        "DataTableValue": {
+                            "DataTable": {
+                                "export": 0
+                            },
+                            "RowName": "None",
+                            "ValueName": "None"
+                        },
+                        "BaseValueAttribute": ["Att_EndGame_GenericPartChance", "/Game/Gear/Weapons/_Shared/_Design/EndGameParts/DropWeight/Att_EndGame_GenericPartChance"],
+                        "AttributeInitializer": {
+                            "export": 0
+                        },
+                        "BaseValueScale": 1.0
+                    }
+                }, {
+                    "PartData": ["GPart_All_SkillEnd_WeaponDamage", "/Game/Gear/Weapons/_Shared/_Design/EndGameParts/_Generic/SkillEnd_WeaponDamage/GPart_All_SkillEnd_WeaponDamage"],
+                    "Weight": {
+                        "BaseValueConstant": 1.0,
+                        "DataTableValue": {
+                            "DataTable": {
+                                "export": 0
+                            },
+                            "RowName": "None",
+                            "ValueName": "None"
+                        },
+                        "BaseValueAttribute": ["Att_EndGame_GenericPartChance", "/Game/Gear/Weapons/_Shared/_Design/EndGameParts/DropWeight/Att_EndGame_GenericPartChance"],
+                        "AttributeInitializer": {
+                            "export": 0
+                        },
+                        "BaseValueScale": 1.0
+                    }
+                }, {
+                    "PartData": ["GPart_All_SkillEnd_NextMagBonusDamageFire", "/Game/Gear/Weapons/_Shared/_Design/EndGameParts/_Generic/SkillEnd_NextMagBonus/Fire/GPart_All_SkillEnd_NextMagBonusDamageFire"],
+                    "Weight": {
+                        "BaseValueConstant": 1.0,
+                        "DataTableValue": {
+                            "DataTable": {
+                                "export": 0
+                            },
+                            "RowName": "None",
+                            "ValueName": "None"
+                        },
+                        "BaseValueAttribute": ["Att_EndGame_GenericPartChance", "/Game/Gear/Weapons/_Shared/_Design/EndGameParts/DropWeight/Att_EndGame_GenericPartChance"],
+                        "AttributeInitializer": {
+                            "export": 0
+                        },
+                        "BaseValueScale": 1.0
+                    }
+                }, {
+                    "PartData": ["GPart_All_SkillEnd_NextMagBonusDamageShock", "/Game/Gear/Weapons/_Shared/_Design/EndGameParts/_Generic/SkillEnd_NextMagBonus/Shock/GPart_All_SkillEnd_NextMagBonusDamageShock"],
+                    "Weight": {
+                        "BaseValueConstant": 1.0,
+                        "DataTableValue": {
+                            "DataTable": {
+                                "export": 0
+                            },
+                            "RowName": "None",
+                            "ValueName": "None"
+                        },
+                        "BaseValueAttribute": ["Att_EndGame_GenericPartChance", "/Game/Gear/Weapons/_Shared/_Design/EndGameParts/DropWeight/Att_EndGame_GenericPartChance"],
+                        "AttributeInitializer": {
+                            "export": 0
+                        },
+                        "BaseValueScale": 1.0
+                    }
+                }, {
+                    "PartData": ["GPart_All_SkillEnd_NextMagBonusDamageRadiation", "/Game/Gear/Weapons/_Shared/_Design/EndGameParts/_Generic/SkillEnd_NextMagBonus/Radiation/GPart_All_SkillEnd_NextMagBonusDamageRadiation"],
+                    "Weight": {
+                        "BaseValueConstant": 1.0,
+                        "DataTableValue": {
+                            "DataTable": {
+                                "export": 0
+                            },
+                            "RowName": "None",
+                            "ValueName": "None"
+                        },
+                        "BaseValueAttribute": ["Att_EndGame_GenericPartChance", "/Game/Gear/Weapons/_Shared/_Design/EndGameParts/DropWeight/Att_EndGame_GenericPartChance"],
+                        "AttributeInitializer": {
+                            "export": 0
+                        },
+                        "BaseValueScale": 1.0
+                    }
+                }, {
+                    "PartData": ["GPart_All_SkillEnd_NextMagBonusDamageCryo", "/Game/Gear/Weapons/_Shared/_Design/EndGameParts/_Generic/SkillEnd_NextMagBonus/Cryo/GPart_All_SkillEnd_NextMagBonusDamageCryo"],
+                    "Weight": {
+                        "BaseValueConstant": 1.0,
+                        "DataTableValue": {
+                            "DataTable": {
+                                "export": 0
+                            },
+                            "RowName": "None",
+                            "ValueName": "None"
+                        },
+                        "BaseValueAttribute": ["Att_EndGame_GenericPartChance", "/Game/Gear/Weapons/_Shared/_Design/EndGameParts/DropWeight/Att_EndGame_GenericPartChance"],
+                        "AttributeInitializer": {
+                            "export": 0
+                        },
+                        "BaseValueScale": 1.0
+                    }
+                }, {
+                    "PartData": ["GPart_All_SkillEnd_NextMagBonusDamageCorrosive", "/Game/Gear/Weapons/_Shared/_Design/EndGameParts/_Generic/SkillEnd_NextMagBonus/Corrosive/GPart_All_SkillEnd_NextMagBonusDamageCorrosive"],
+                    "Weight": {
+                        "BaseValueConstant": 1.0,
+                        "DataTableValue": {
+                            "DataTable": {
+                                "export": 0
+                            },
+                            "RowName": "None",
+                            "ValueName": "None"
+                        },
+                        "BaseValueAttribute": ["Att_EndGame_GenericPartChance", "/Game/Gear/Weapons/_Shared/_Design/EndGameParts/DropWeight/Att_EndGame_GenericPartChance"],
+                        "AttributeInitializer": {
+                            "export": 0
+                        },
+                        "BaseValueScale": 1.0
+                    }
+                }, {
+                    "PartData": ["GPart_Siren_Cast_ElementalChance", "/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Siren/Cast_EleChance/GPart_Siren_Cast_ElementalChance"],
+                    "Weight": {
+                        "BaseValueConstant": 1.0,
+                        "DataTableValue": {
+                            "DataTable": {
+                                "export": 0
+                            },
+                            "RowName": "None",
+                            "ValueName": "None"
+                        },
+                        "BaseValueAttribute": ["Att_EndGame_Siren_PartChance", "/Game/Gear/Weapons/_Shared/_Design/EndGameParts/DropWeight/Att_EndGame_Siren_PartChance"],
+                        "AttributeInitializer": {
+                            "export": 0
+                        },
+                        "BaseValueScale": 1.0
+                    }
+                }, {
+                    "PartData": ["GPart_Siren_Cast_WeaponDamage", "/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Siren/Cast_WeaponDamage/GPart_Siren_Cast_WeaponDamage"],
+                    "Weight": {
+                        "BaseValueConstant": 1.0,
+                        "DataTableValue": {
+                            "DataTable": {
+                                "export": 0
+                            },
+                            "RowName": "None",
+                            "ValueName": "None"
+                        },
+                        "BaseValueAttribute": ["Att_EndGame_Siren_PartChance", "/Game/Gear/Weapons/_Shared/_Design/EndGameParts/DropWeight/Att_EndGame_Siren_PartChance"],
+                        "AttributeInitializer": {
+                            "export": 0
+                        },
+                        "BaseValueScale": 1.0
+                    }
+                }, {
+                    "PartData": ["GPart_Siren_Grasp_AccuracyCrit", "/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Siren/Grasp_AccuracyCrit/GPart_Siren_Grasp_AccuracyCrit"],
+                    "Weight": {
+                        "BaseValueConstant": 1.0,
+                        "DataTableValue": {
+                            "DataTable": {
+                                "export": 0
+                            },
+                            "RowName": "None",
+                            "ValueName": "None"
+                        },
+                        "BaseValueAttribute": ["Att_EndGame_Siren_PartChance", "/Game/Gear/Weapons/_Shared/_Design/EndGameParts/DropWeight/Att_EndGame_Siren_PartChance"],
+                        "AttributeInitializer": {
+                            "export": 0
+                        },
+                        "BaseValueScale": 1.0
+                    }
+                }, {
+                    "PartData": ["GPart_Siren_SkillEnd_AttunedSkillDamage", "/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Siren/SkillEnd_AttunedEleDamage/GPart_Siren_SkillEnd_AttunedSkillDamage"],
+                    "Weight": {
+                        "BaseValueConstant": 1.0,
+                        "DataTableValue": {
+                            "DataTable": {
+                                "export": 0
+                            },
+                            "RowName": "None",
+                            "ValueName": "None"
+                        },
+                        "BaseValueAttribute": ["Att_EndGame_Siren_PartChance", "/Game/Gear/Weapons/_Shared/_Design/EndGameParts/DropWeight/Att_EndGame_Siren_PartChance"],
+                        "AttributeInitializer": {
+                            "export": 0
+                        },
+                        "BaseValueScale": 1.0
+                    }
+                }, {
+                    "PartData": ["GPart_Siren_Slam_MeleeDamage", "/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Siren/Slam_MeleeDamage/GPart_Siren_Slam_MeleeDamage"],
+                    "Weight": {
+                        "BaseValueConstant": 1.0,
+                        "DataTableValue": {
+                            "DataTable": {
+                                "export": 0
+                            },
+                            "RowName": "None",
+                            "ValueName": "None"
+                        },
+                        "BaseValueAttribute": ["Att_EndGame_Siren_PartChance", "/Game/Gear/Weapons/_Shared/_Design/EndGameParts/DropWeight/Att_EndGame_Siren_PartChance"],
+                        "AttributeInitializer": {
+                            "export": 0
+                        },
+                        "BaseValueScale": 1.0
+                    }
+                }, {
+                    "PartData": ["GPart_Siren_Slam_WeaponDamage", "/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Siren/Slam_WeaponDamage/GPart_Siren_Slam_WeaponDamage"],
+                    "Weight": {
+                        "BaseValueConstant": 1.0,
+                        "DataTableValue": {
+                            "DataTable": {
+                                "export": 0
+                            },
+                            "RowName": "None",
+                            "ValueName": "None"
+                        },
+                        "BaseValueAttribute": ["Att_EndGame_Siren_PartChance", "/Game/Gear/Weapons/_Shared/_Design/EndGameParts/DropWeight/Att_EndGame_Siren_PartChance"],
+                        "AttributeInitializer": {
+                            "export": 0
+                        },
+                        "BaseValueScale": 1.0
+                    }
+                }, {
+                    "PartData": ["GPart_Operative_BarrierActive_AccuracyCrit", "/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Operative/BarrierActiveAccuracyCrit/GPart_Operative_BarrierActive_AccuracyCrit"],
+                    "Weight": {
+                        "BaseValueConstant": 1.0,
+                        "DataTableValue": {
+                            "DataTable": {
+                                "export": 0
+                            },
+                            "RowName": "None",
+                            "ValueName": "None"
+                        },
+                        "BaseValueAttribute": ["Att_EndGame_Operative_PartChance", "/Game/Gear/Weapons/_Shared/_Design/EndGameParts/DropWeight/Att_EndGame_Operative_PartChance"],
+                        "AttributeInitializer": {
+                            "export": 0
+                        },
+                        "BaseValueScale": 1.0
+                    }
+                }, {
+                    "PartData": ["GPart_Operative_BarrierActive_StatusEffectChance", "/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Operative/BarrierActive_StatusEffectChance/GPart_Operative_BarrierActive_StatusEffectChance"],
+                    "Weight": {
+                        "BaseValueConstant": 1.0,
+                        "DataTableValue": {
+                            "DataTable": {
+                                "export": 0
+                            },
+                            "RowName": "None",
+                            "ValueName": "None"
+                        },
+                        "BaseValueAttribute": ["Att_EndGame_Operative_PartChance", "/Game/Gear/Weapons/_Shared/_Design/EndGameParts/DropWeight/Att_EndGame_Operative_PartChance"],
+                        "AttributeInitializer": {
+                            "export": 0
+                        },
+                        "BaseValueScale": 1.0
+                    }
+                }, {
+                    "PartData": ["GPart_Operative_CloneActive_AmmoRegen", "/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Operative/CloneActiveRegenAmmo/GPart_Operative_CloneActive_AmmoRegen"],
+                    "Weight": {
+                        "BaseValueConstant": 1.0,
+                        "DataTableValue": {
+                            "DataTable": {
+                                "export": 0
+                            },
+                            "RowName": "None",
+                            "ValueName": "None"
+                        },
+                        "BaseValueAttribute": ["Att_EndGame_Operative_PartChance", "/Game/Gear/Weapons/_Shared/_Design/EndGameParts/DropWeight/Att_EndGame_Operative_PartChance"],
+                        "AttributeInitializer": {
+                            "export": 0
+                        },
+                        "BaseValueScale": 1.0
+                    }
+                }, {
+                    "PartData": ["GPart_CloneSwap_WeaponDamage", "/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Operative/CloneSwapDamage/GPart_CloneSwap_WeaponDamage"],
+                    "Weight": {
+                        "BaseValueConstant": 1.0,
+                        "DataTableValue": {
+                            "DataTable": {
+                                "export": 0
+                            },
+                            "RowName": "None",
+                            "ValueName": "None"
+                        },
+                        "BaseValueAttribute": ["Att_EndGame_Operative_PartChance", "/Game/Gear/Weapons/_Shared/_Design/EndGameParts/DropWeight/Att_EndGame_Operative_PartChance"],
+                        "AttributeInitializer": {
+                            "export": 0
+                        },
+                        "BaseValueScale": 1.0
+                    }
+                }, {
+                    "PartData": ["GPart_Operative_CloneSwapInstaReload", "/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Operative/CloneSwapInstaReload/GPart_Operative_CloneSwapInstaReload"],
+                    "Weight": {
+                        "BaseValueConstant": 1.0,
+                        "DataTableValue": {
+                            "DataTable": {
+                                "export": 0
+                            },
+                            "RowName": "None",
+                            "ValueName": "None"
+                        },
+                        "BaseValueAttribute": ["Att_EndGame_Operative_PartChance", "/Game/Gear/Weapons/_Shared/_Design/EndGameParts/DropWeight/Att_EndGame_Operative_PartChance"],
+                        "AttributeInitializer": {
+                            "export": 0
+                        },
+                        "BaseValueScale": 1.0
+                    }
+                }, {
+                    "PartData": ["GPart_Operative_DroneActiveBonusDamage", "/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Operative/DroneActiveBonusDamage/GPart_Operative_DroneActiveBonusDamage"],
+                    "Weight": {
+                        "BaseValueConstant": 1.0,
+                        "DataTableValue": {
+                            "DataTable": {
+                                "export": 0
+                            },
+                            "RowName": "None",
+                            "ValueName": "None"
+                        },
+                        "BaseValueAttribute": ["Att_EndGame_Operative_PartChance", "/Game/Gear/Weapons/_Shared/_Design/EndGameParts/DropWeight/Att_EndGame_Operative_PartChance"],
+                        "AttributeInitializer": {
+                            "export": 0
+                        },
+                        "BaseValueScale": 1.0
+                    }
+                }, {
+                    "PartData": ["GPart_Operative_DroneActive_FireRateReload", "/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Operative/DroneActiveFireRateReload/GPart_Operative_DroneActive_FireRateReload"],
+                    "Weight": {
+                        "BaseValueConstant": 1.0,
+                        "DataTableValue": {
+                            "DataTable": {
+                                "export": 0
+                            },
+                            "RowName": "None",
+                            "ValueName": "None"
+                        },
+                        "BaseValueAttribute": ["Att_EndGame_Operative_PartChance", "/Game/Gear/Weapons/_Shared/_Design/EndGameParts/DropWeight/Att_EndGame_Operative_PartChance"],
+                        "AttributeInitializer": {
+                            "export": 0
+                        },
+                        "BaseValueScale": 1.0
+                    }
+                }, {
+                    "PartData": ["GPart_Beast_AttackCmd_Lifesteal", "/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Beastmaster/AttackCommandLifeSteal/GPart_Beast_AttackCmd_Lifesteal"],
+                    "Weight": {
+                        "BaseValueConstant": 1.0,
+                        "DataTableValue": {
+                            "DataTable": {
+                                "export": 0
+                            },
+                            "RowName": "None",
+                            "ValueName": "None"
+                        },
+                        "BaseValueAttribute": ["Att_EndGame_Beastmaster_PartChance", "/Game/Gear/Weapons/_Shared/_Design/EndGameParts/DropWeight/Att_EndGame_BEastmaster_PartChance"],
+                        "AttributeInitializer": {
+                            "export": 0
+                        },
+                        "BaseValueScale": 1.0
+                    }
+                }, {
+                    "PartData": ["GPart_BonusRadiationDamage", "/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Beastmaster/Beast_Gamma_BonusRadiationDamage/GPart_BonusRadiationDamage"],
+                    "Weight": {
+                        "BaseValueConstant": 1.0,
+                        "DataTableValue": {
+                            "DataTable": {
+                                "export": 0
+                            },
+                            "RowName": "None",
+                            "ValueName": "None"
+                        },
+                        "BaseValueAttribute": ["Att_EndGame_Beastmaster_PartChance", "/Game/Gear/Weapons/_Shared/_Design/EndGameParts/DropWeight/Att_EndGame_BEastmaster_PartChance"],
+                        "AttributeInitializer": {
+                            "export": 0
+                        },
+                        "BaseValueScale": 1.0
+                    }
+                }, {
+                    "PartData": ["GPart_Beast_RakkCharge", "/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Beastmaster/RakkAttackCharge/GPart_Beast_RakkCharge"],
+                    "Weight": {
+                        "BaseValueConstant": 1.0,
+                        "DataTableValue": {
+                            "DataTable": {
+                                "export": 0
+                            },
+                            "RowName": "None",
+                            "ValueName": "None"
+                        },
+                        "BaseValueAttribute": ["Att_EndGame_Beastmaster_PartChance", "/Game/Gear/Weapons/_Shared/_Design/EndGameParts/DropWeight/Att_EndGame_BEastmaster_PartChance"],
+                        "AttributeInitializer": {
+                            "export": 0
+                        },
+                        "BaseValueScale": 1.0
+                    }
+                }, {
+                    "PartData": ["GPart_Beast_RakkSlag", "/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Beastmaster/RakkSlag/GPart_Beast_RakkSlag"],
+                    "Weight": {
+                        "BaseValueConstant": 1.0,
+                        "DataTableValue": {
+                            "DataTable": {
+                                "export": 0
+                            },
+                            "RowName": "None",
+                            "ValueName": "None"
+                        },
+                        "BaseValueAttribute": ["Att_EndGame_Beastmaster_PartChance", "/Game/Gear/Weapons/_Shared/_Design/EndGameParts/DropWeight/Att_EndGame_BEastmaster_PartChance"],
+                        "AttributeInitializer": {
+                            "export": 0
+                        },
+                        "BaseValueScale": 1.0
+                    }
+                }, {
+                    "PartData": ["GPart_Beast_RakkCrit", "/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Beastmaster/RakkUsed_CritDamage/GPart_Beast_RakkCrit"],
+                    "Weight": {
+                        "BaseValueConstant": 1.0,
+                        "DataTableValue": {
+                            "DataTable": {
+                                "export": 0
+                            },
+                            "RowName": "None",
+                            "ValueName": "None"
+                        },
+                        "BaseValueAttribute": ["Att_EndGame_Beastmaster_PartChance", "/Game/Gear/Weapons/_Shared/_Design/EndGameParts/DropWeight/Att_EndGame_BEastmaster_PartChance"],
+                        "AttributeInitializer": {
+                            "export": 0
+                        },
+                        "BaseValueScale": 1.0
+                    }
+                }, {
+                    "PartData": ["GPart_Beast_Stealth_AccuracyHandling", "/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Beastmaster/StealthAccuracyHandling/GPart_Beast_Stealth_AccuracyHandling"],
+                    "Weight": {
+                        "BaseValueConstant": 1.0,
+                        "DataTableValue": {
+                            "DataTable": {
+                                "export": 0
+                            },
+                            "RowName": "None",
+                            "ValueName": "None"
+                        },
+                        "BaseValueAttribute": ["Att_EndGame_Beastmaster_PartChance", "/Game/Gear/Weapons/_Shared/_Design/EndGameParts/DropWeight/Att_EndGame_BEastmaster_PartChance"],
+                        "AttributeInitializer": {
+                            "export": 0
+                        },
+                        "BaseValueScale": 1.0
+                    }
+                }, {
+                    "PartData": ["GPart_Gunner_NextMagFireDamage", "/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Gunner/Exit_NextMagFireDamage/GPart_Gunner_NextMagFireDamage"],
+                    "Weight": {
+                        "BaseValueConstant": 1.0,
+                        "DataTableValue": {
+                            "DataTable": {
+                                "export": 0
+                            },
+                            "RowName": "None",
+                            "ValueName": "None"
+                        },
+                        "BaseValueAttribute": ["Att_EndGame_Gunner_PartChance", "/Game/Gear/Weapons/_Shared/_Design/EndGameParts/DropWeight/Att_EndGame_Gunner_PartChance"],
+                        "AttributeInitializer": {
+                            "export": 0
+                        },
+                        "BaseValueScale": 1.0
+                    }
+                }, {
+                    "PartData": ["GPart_Gunner_NextMagFirerateCrit", "/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Gunner/Exit_NextMagFirerateCrit/GPart_Gunner_NextMagFirerateCrit"],
+                    "Weight": {
+                        "BaseValueConstant": 1.0,
+                        "DataTableValue": {
+                            "DataTable": {
+                                "export": 0
+                            },
+                            "RowName": "None",
+                            "ValueName": "None"
+                        },
+                        "BaseValueAttribute": ["Att_EndGame_Gunner_PartChance", "/Game/Gear/Weapons/_Shared/_Design/EndGameParts/DropWeight/Att_EndGame_Gunner_PartChance"],
+                        "AttributeInitializer": {
+                            "export": 0
+                        },
+                        "BaseValueScale": 1.0
+                    }
+                }, {
+                    "PartData": ["GPart_Gunner_NextMagReloadHandling", "/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Gunner/Exit_NextMagReloadHandling/GPart_Gunner_NextMagReloadHandling"],
+                    "Weight": {
+                        "BaseValueConstant": 1.0,
+                        "DataTableValue": {
+                            "DataTable": {
+                                "export": 0
+                            },
+                            "RowName": "None",
+                            "ValueName": "None"
+                        },
+                        "BaseValueAttribute": ["Att_EndGame_Gunner_PartChance", "/Game/Gear/Weapons/_Shared/_Design/EndGameParts/DropWeight/Att_EndGame_Gunner_PartChance"],
+                        "AttributeInitializer": {
+                            "export": 0
+                        },
+                        "BaseValueScale": 1.0
+                    }
+                }, {
+                    "PartData": ["GPart_Gunner_AutoBear_AmmoRegen", "/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Gunner/AutoBear_AmmoRegen/GPart_Gunner_AutoBear_AmmoRegen"],
+                    "Weight": {
+                        "BaseValueConstant": 1.0,
+                        "DataTableValue": {
+                            "DataTable": {
+                                "export": 0
+                            },
+                            "RowName": "None",
+                            "ValueName": "None"
+                        },
+                        "BaseValueAttribute": ["Att_EndGame_Gunner_PartChance", "/Game/Gear/Weapons/_Shared/_Design/EndGameParts/DropWeight/Att_EndGame_Gunner_PartChance"],
+                        "AttributeInitializer": {
+                            "export": 0
+                        },
+                        "BaseValueScale": 1.0
+                    }
+                }, {
+                    "PartData": ["GPart_Gunner_AutoBear_FireDamage", "/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Gunner/AutoBear_FireDamage/GPart_Gunner_AutoBear_FireDamage"],
+                    "Weight": {
+                        "BaseValueConstant": 1.0,
+                        "DataTableValue": {
+                            "DataTable": {
+                                "export": 0
+                            },
+                            "RowName": "None",
+                            "ValueName": "None"
+                        },
+                        "BaseValueAttribute": ["Att_EndGame_Gunner_PartChance", "/Game/Gear/Weapons/_Shared/_Design/EndGameParts/DropWeight/Att_EndGame_Gunner_PartChance"],
+                        "AttributeInitializer": {
+                            "export": 0
+                        },
+                        "BaseValueScale": 1.0
+                    }
+                }, {
+                    "PartData": ["GPart_Gunner_NoAmmoConsumption", "/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Gunner/Exit_NoAmmoConsumption/GPart_Gunner_NoAmmoConsumption"],
+                    "Weight": {
+                        "BaseValueConstant": 1.0,
+                        "DataTableValue": {
+                            "DataTable": {
+                                "export": 0
+                            },
+                            "RowName": "None",
+                            "ValueName": "None"
+                        },
+                        "BaseValueAttribute": ["Att_EndGame_Gunner_PartChance", "/Game/Gear/Weapons/_Shared/_Design/EndGameParts/DropWeight/Att_EndGame_Gunner_PartChance"],
+                        "AttributeInitializer": {
+                            "export": 0
+                        },
+                        "BaseValueScale": 1.0
+                    }
+                }, {
+                    "PartData": ["GPart_Gunner_KillsLowerCooldown", "/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Gunner/Exit_KillsLowerCooldown/GPart_Gunner_KillsLowerCooldown"],
+                    "Weight": {
+                        "BaseValueConstant": 1.0,
+                        "DataTableValue": {
+                            "DataTable": {
+                                "export": 0
+                            },
+                            "RowName": "None",
+                            "ValueName": "None"
+                        },
+                        "BaseValueAttribute": ["Att_EndGame_Gunner_PartChance", "/Game/Gear/Weapons/_Shared/_Design/EndGameParts/DropWeight/Att_EndGame_Gunner_PartChance"],
+                        "AttributeInitializer": {
+                            "export": 0
+                        },
+                        "BaseValueScale": 1.0
+                    }
+                }, {
+                    "PartData": ["GPart_Gunner_SplashDamageIncrease", "/Game/Gear/Weapons/_Shared/_Design/EndGameParts/Character/Gunner/Exit_SplashDamageIncrease/GPart_Gunner_SplashDamageIncrease"],
+                    "Weight": {
+                        "BaseValueConstant": 1.0,
+                        "DataTableValue": {
+                            "DataTable": {
+                                "export": 0
+                            },
+                            "RowName": "None",
+                            "ValueName": "None"
+                        },
+                        "BaseValueAttribute": ["Att_EndGame_Gunner_PartChance", "/Game/Gear/Weapons/_Shared/_Design/EndGameParts/DropWeight/Att_EndGame_Gunner_PartChance"],
+                        "AttributeInitializer": {
+                            "export": 0
+                        },
+                        "BaseValueScale": 1.0
+                    }
+                }
+            ]
+        },
+        "GearBuilderCategory": ["Category_Shotguns", "/Game/Gear/_Shared/_Design/GearBuilder/Category_Shotguns"],
+        "bMigratedToActorPartSelectionData": true,
+        "AssetGuid": "d341d53442024a79f4bd9eaf8e1f415d",
+        "PartSetData": ["InvPartSet_SG_Torgue_ETech_VeryRare", "/Game/Gear/Weapons/_Shared/_Design/_Manufacturers/_ETech/_Design/Shotgun/Torgue/Balance/InvPartSet_SG_Torgue_ETech_VeryRare"],
+        "PartSetDataGuid": "a04287ed4d9b0cc1561191bbcafe2250",
+        "RuntimePartList": {
+            "bIsInitialized": true,
+            "PartTypeTOC": [{
+                    "StartIndex": 0,
+                    "NumParts": 1
+                }, {
+                    "StartIndex": 1,
+                    "NumParts": 2
+                }, {
+                    "StartIndex": 3,
+                    "NumParts": 1
+                }, {
+                    "StartIndex": 4,
+                    "NumParts": 1
+                }, {
+                    "StartIndex": 5,
+                    "NumParts": 3
+                }, {
+                    "StartIndex": 8,
+                    "NumParts": 4
+                }, {
+                    "StartIndex": 12,
+                    "NumParts": 4
+                }, {
+                    "StartIndex": 16,
+                    "NumParts": 4
+                }, {
+                    "StartIndex": 20,
+                    "NumParts": 5
+                }, {
+                    "StartIndex": 25,
+                    "NumParts": 1
+                }, {
+                    "StartIndex": -1,
+                    "NumParts": 0
+                }
+            ],
+            "AllParts": [{
+                    "PartData": ["Part_SG_Torgue_Body", "/Game/Gear/Weapons/Shotguns/Torgue/_Shared/_Design/Parts/Body/Part_SG_Torgue_Body"],
+                    "Weight": {
+                        "BaseValueConstant": 1.0,
+                        "DataTableValue": {
+                            "DataTable": {
+                                "export": 0
+                            },
+                            "RowName": "None",
+                            "ValueName": "None"
+                        },
+                        "BaseValueAttribute": {
+                            "export": 0
+                        },
+                        "AttributeInitializer": {
+                            "export": 0
+                        },
+                        "BaseValueScale": 1.0
+                    }
+                }, {
+                    "PartData": ["Part_SG_Torgue_Body_A", "/Game/Gear/Weapons/Shotguns/Torgue/_Shared/_Design/Parts/Body/Part_SG_Torgue_Body_A"],
+                    "Weight": {
+                        "BaseValueConstant": 1.0,
+                        "DataTableValue": {
+                            "DataTable": {
+                                "export": 0
+                            },
+                            "RowName": "None",
+                            "ValueName": "None"
+                        },
+                        "BaseValueAttribute": {
+                            "export": 0
+                        },
+                        "AttributeInitializer": {
+                            "export": 0
+                        },
+                        "BaseValueScale": 1.0
+                    }
+                }, {
+                    "PartData": ["Part_SG_Torgue_Body_B", "/Game/Gear/Weapons/Shotguns/Torgue/_Shared/_Design/Parts/Body/Part_SG_Torgue_Body_B"],
+                    "Weight": {
+                        "BaseValueConstant": 1.0,
+                        "DataTableValue": {
+                            "DataTable": {
+                                "export": 0
+                            },
+                            "RowName": "None",
+                            "ValueName": "None"
+                        },
+                        "BaseValueAttribute": {
+                            "export": 0
+                        },
+                        "AttributeInitializer": {
+                            "export": 0
+                        },
+                        "BaseValueScale": 1.0
+                    }
+                }, {
+                    "PartData": ["Part_SG_Torgue_Barrel_ETech", "/Game/Gear/Weapons/_Shared/_Design/_Manufacturers/_ETech/_Design/Shotgun/Torgue/Part_SG_Torgue_Barrel_ETech"],
+                    "Weight": {
+                        "BaseValueConstant": 1.0,
+                        "DataTableValue": {
+                            "DataTable": {
+                                "export": 0
+                            },
+                            "RowName": "None",
+                            "ValueName": "None"
+                        },
+                        "BaseValueAttribute": {
+                            "export": 0
+                        },
+                        "AttributeInitializer": {
+                            "export": 0
+                        },
+                        "BaseValueScale": 1.0
+                    }
+                }, {
+                    "PartData": ["Part_SG_Torgue_Barrel_ETech_A", "/Game/Gear/Weapons/_Shared/_Design/_Manufacturers/_ETech/_Design/Shotgun/Torgue/Part_SG_Torgue_Barrel_ETech_A"],
+                    "Weight": {
+                        "BaseValueConstant": 1.0,
+                        "DataTableValue": {
+                            "DataTable": {
+                                "export": 0
+                            },
+                            "RowName": "None",
+                            "ValueName": "None"
+                        },
+                        "BaseValueAttribute": {
+                            "export": 0
+                        },
+                        "AttributeInitializer": {
+                            "export": 0
+                        },
+                        "BaseValueScale": 1.0
+                    }
+                }, {
+                    "PartData": ["Part_SG_Torgue_Grip_01", "/Game/Gear/Weapons/Shotguns/Torgue/_Shared/_Design/Parts/Grip/Part_SG_Torgue_Grip_01"],
+                    "Weight": {
+                        "BaseValueConstant": 0.2,
+                        "DataTableValue": {
+                            "DataTable": {
+                                "export": 0
+                            },
+                            "RowName": "None",
+                            "ValueName": "None"
+                        },
+                        "BaseValueAttribute": {
+                            "export": 0
+                        },
+                        "AttributeInitializer": {
+                            "export": 0
+                        },
+                        "BaseValueScale": 1.0
+                    }
+                }, {
+                    "PartData": ["Part_SG_Torgue_Grip_02", "/Game/Gear/Weapons/Shotguns/Torgue/_Shared/_Design/Parts/Grip/Part_SG_Torgue_Grip_02"],
+                    "Weight": {
+                        "BaseValueConstant": 1.0,
+                        "DataTableValue": {
+                            "DataTable": {
+                                "export": 0
+                            },
+                            "RowName": "None",
+                            "ValueName": "None"
+                        },
+                        "BaseValueAttribute": {
+                            "export": 0
+                        },
+                        "AttributeInitializer": {
+                            "export": 0
+                        },
+                        "BaseValueScale": 1.0
+                    }
+                }, {
+                    "PartData": ["Part_SG_Torgue_Grip_03", "/Game/Gear/Weapons/Shotguns/Torgue/_Shared/_Design/Parts/Grip/Part_SG_Torgue_Grip_03"],
+                    "Weight": {
+                        "BaseValueConstant": 1.0,
+                        "DataTableValue": {
+                            "DataTable": {
+                                "export": 0
+                            },
+                            "RowName": "None",
+                            "ValueName": "None"
+                        },
+                        "BaseValueAttribute": {
+                            "export": 0
+                        },
+                        "AttributeInitializer": {
+                            "export": 0
+                        },
+                        "BaseValueScale": 1.0
+                    }
+                }, {
+                    "PartData": {
+                        "export": 0
+                    },
+                    "Weight": {
+                        "BaseValueConstant": 0.5,
+                        "DataTableValue": {
+                            "DataTable": {
+                                "export": 0
+                            },
+                            "RowName": "None",
+                            "ValueName": "None"
+                        },
+                        "BaseValueAttribute": {
+                            "export": 0
+                        },
+                        "AttributeInitializer": {
+                            "export": 0
+                        },
+                        "BaseValueScale": 1.0
+                    }
+                }, {
+                    "PartData": ["Part_SG_Torgue_Foregrip_01", "/Game/Gear/Weapons/Shotguns/Torgue/_Shared/_Design/Parts/Foregrip/Part_SG_Torgue_Foregrip_01"],
+                    "Weight": {
+                        "BaseValueConstant": 1.0,
+                        "DataTableValue": {
+                            "DataTable": {
+                                "export": 0
+                            },
+                            "RowName": "None",
+                            "ValueName": "None"
+                        },
+                        "BaseValueAttribute": {
+                            "export": 0
+                        },
+                        "AttributeInitializer": {
+                            "export": 0
+                        },
+                        "BaseValueScale": 1.0
+                    }
+                }, {
+                    "PartData": ["Part_SG_Torgue_Foregrip_02", "/Game/Gear/Weapons/Shotguns/Torgue/_Shared/_Design/Parts/Foregrip/Part_SG_Torgue_Foregrip_02"],
+                    "Weight": {
+                        "BaseValueConstant": 1.0,
+                        "DataTableValue": {
+                            "DataTable": {
+                                "export": 0
+                            },
+                            "RowName": "None",
+                            "ValueName": "None"
+                        },
+                        "BaseValueAttribute": {
+                            "export": 0
+                        },
+                        "AttributeInitializer": {
+                            "export": 0
+                        },
+                        "BaseValueScale": 1.0
+                    }
+                }, {
+                    "PartData": ["Part_SG_Torgue_Foregrip_03", "/Game/Gear/Weapons/Shotguns/Torgue/_Shared/_Design/Parts/Foregrip/Part_SG_Torgue_Foregrip_03"],
+                    "Weight": {
+                        "BaseValueConstant": 1.0,
+                        "DataTableValue": {
+                            "DataTable": {
+                                "export": 0
+                            },
+                            "RowName": "None",
+                            "ValueName": "None"
+                        },
+                        "BaseValueAttribute": {
+                            "export": 0
+                        },
+                        "AttributeInitializer": {
+                            "export": 0
+                        },
+                        "BaseValueScale": 1.0
+                    }
+                }, {
+                    "PartData": ["Part_SG_Torgue_Magazine_01", "/Game/Gear/Weapons/Shotguns/Torgue/_Shared/_Design/Parts/Mag/Part_SG_Torgue_Magazine_01"],
+                    "Weight": {
+                        "BaseValueConstant": 1.0,
+                        "DataTableValue": {
+                            "DataTable": {
+                                "export": 0
+                            },
+                            "RowName": "None",
+                            "ValueName": "None"
+                        },
+                        "BaseValueAttribute": {
+                            "export": 0
+                        },
+                        "AttributeInitializer": {
+                            "export": 0
+                        },
+                        "BaseValueScale": 1.0
+                    }
+                }, {
+                    "PartData": ["Part_SG_Torgue_Magazine_02", "/Game/Gear/Weapons/Shotguns/Torgue/_Shared/_Design/Parts/Mag/Part_SG_Torgue_Magazine_02"],
+                    "Weight": {
+                        "BaseValueConstant": 1.0,
+                        "DataTableValue": {
+                            "DataTable": {
+                                "export": 0
+                            },
+                            "RowName": "None",
+                            "ValueName": "None"
+                        },
+                        "BaseValueAttribute": {
+                            "export": 0
+                        },
+                        "AttributeInitializer": {
+                            "export": 0
+                        },
+                        "BaseValueScale": 1.0
+                    }
+                }, {
+                    "PartData": ["Part_SG_Torgue_Magazine_03", "/Game/Gear/Weapons/Shotguns/Torgue/_Shared/_Design/Parts/Mag/Part_SG_Torgue_Magazine_03"],
+                    "Weight": {
+                        "BaseValueConstant": 1.0,
+                        "DataTableValue": {
+                            "DataTable": {
+                                "export": 0
+                            },
+                            "RowName": "None",
+                            "ValueName": "None"
+                        },
+                        "BaseValueAttribute": {
+                            "export": 0
+                        },
+                        "AttributeInitializer": {
+                            "export": 0
+                        },
+                        "BaseValueScale": 1.0
+                    }
+                }, {
+                    "PartData": ["Part_SG_Torgue_Magazine_04", "/Game/Gear/Weapons/Shotguns/Torgue/_Shared/_Design/Parts/Mag/Part_SG_Torgue_Magazine_04"],
+                    "Weight": {
+                        "BaseValueConstant": 1.0,
+                        "DataTableValue": {
+                            "DataTable": {
+                                "export": 0
+                            },
+                            "RowName": "None",
+                            "ValueName": "None"
+                        },
+                        "BaseValueAttribute": {
+                            "export": 0
+                        },
+                        "AttributeInitializer": {
+                            "export": 0
+                        },
+                        "BaseValueScale": 1.0
+                    }
+                }, {
+                    "PartData": {
+                        "export": 0
+                    },
+                    "Weight": {
+                        "BaseValueConstant": 0.5,
+                        "DataTableValue": {
+                            "DataTable": {
+                                "export": 0
+                            },
+                            "RowName": "None",
+                            "ValueName": "None"
+                        },
+                        "BaseValueAttribute": {
+                            "export": 0
+                        },
+                        "AttributeInitializer": {
+                            "export": 0
+                        },
+                        "BaseValueScale": 1.0
+                    }
+                }, {
+                    "PartData": ["Part_SG_Torgue_Scope_01", "/Game/Gear/Weapons/Shotguns/Torgue/_Shared/_Design/Parts/Scope/Part_SG_Torgue_Scope_01"],
+                    "Weight": {
+                        "BaseValueConstant": 1.0,
+                        "DataTableValue": {
+                            "DataTable": {
+                                "export": 0
+                            },
+                            "RowName": "None",
+                            "ValueName": "None"
+                        },
+                        "BaseValueAttribute": {
+                            "export": 0
+                        },
+                        "AttributeInitializer": {
+                            "export": 0
+                        },
+                        "BaseValueScale": 1.0
+                    }
+                }, {
+                    "PartData": ["Part_SG_Torgue_Scope_02", "/Game/Gear/Weapons/Shotguns/Torgue/_Shared/_Design/Parts/Scope/Part_SG_Torgue_Scope_02"],
+                    "Weight": {
+                        "BaseValueConstant": 1.0,
+                        "DataTableValue": {
+                            "DataTable": {
+                                "export": 0
+                            },
+                            "RowName": "None",
+                            "ValueName": "None"
+                        },
+                        "BaseValueAttribute": {
+                            "export": 0
+                        },
+                        "AttributeInitializer": {
+                            "export": 0
+                        },
+                        "BaseValueScale": 1.0
+                    }
+                }, {
+                    "PartData": ["Part_SG_Torgue_Scope_03", "/Game/Gear/Weapons/Shotguns/Torgue/_Shared/_Design/Parts/Scope/Part_SG_Torgue_Scope_03"],
+                    "Weight": {
+                        "BaseValueConstant": 1.0,
+                        "DataTableValue": {
+                            "DataTable": {
+                                "export": 0
+                            },
+                            "RowName": "None",
+                            "ValueName": "None"
+                        },
+                        "BaseValueAttribute": {
+                            "export": 0
+                        },
+                        "AttributeInitializer": {
+                            "export": 0
+                        },
+                        "BaseValueScale": 1.0
+                    }
+                }, {
+                    "PartData": ["Part_SG_Torgue_Ele_Corr", "/Game/Gear/Weapons/Shotguns/Torgue/_Shared/_Design/Parts/Elemental/Part_SG_Torgue_Ele_Corr"],
+                    "Weight": {
+                        "BaseValueConstant": 1.0,
+                        "DataTableValue": {
+                            "DataTable": {
+                                "export": 0
+                            },
+                            "RowName": "None",
+                            "ValueName": "None"
+                        },
+                        "BaseValueAttribute": {
+                            "export": 0
+                        },
+                        "AttributeInitializer": {
+                            "export": 0
+                        },
+                        "BaseValueScale": 1.0
+                    }
+                }, {
+                    "PartData": ["Part_SG_Torgue_Ele_Fire", "/Game/Gear/Weapons/Shotguns/Torgue/_Shared/_Design/Parts/Elemental/Part_SG_Torgue_Ele_Fire"],
+                    "Weight": {
+                        "BaseValueConstant": 1.0,
+                        "DataTableValue": {
+                            "DataTable": {
+                                "export": 0
+                            },
+                            "RowName": "None",
+                            "ValueName": "None"
+                        },
+                        "BaseValueAttribute": {
+                            "export": 0
+                        },
+                        "AttributeInitializer": {
+                            "export": 0
+                        },
+                        "BaseValueScale": 1.0
+                    }
+                }, {
+                    "PartData": ["Part_SG_Torgue_Ele_Shock", "/Game/Gear/Weapons/Shotguns/Torgue/_Shared/_Design/Parts/Elemental/Part_SG_Torgue_Ele_Shock"],
+                    "Weight": {
+                        "BaseValueConstant": 1.0,
+                        "DataTableValue": {
+                            "DataTable": {
+                                "export": 0
+                            },
+                            "RowName": "None",
+                            "ValueName": "None"
+                        },
+                        "BaseValueAttribute": {
+                            "export": 0
+                        },
+                        "AttributeInitializer": {
+                            "export": 0
+                        },
+                        "BaseValueScale": 1.0
+                    }
+                }, {
+                    "PartData": ["Part_SG_Torgue_Ele_Radiation", "/Game/Gear/Weapons/Shotguns/Torgue/_Shared/_Design/Parts/Elemental/Part_SG_Torgue_Ele_Radiation"],
+                    "Weight": {
+                        "BaseValueConstant": 1.0,
+                        "DataTableValue": {
+                            "DataTable": {
+                                "export": 0
+                            },
+                            "RowName": "None",
+                            "ValueName": "None"
+                        },
+                        "BaseValueAttribute": {
+                            "export": 0
+                        },
+                        "AttributeInitializer": {
+                            "export": 0
+                        },
+                        "BaseValueScale": 1.0
+                    }
+                }, {
+                    "PartData": ["Part_SG_Torgue_Ele_Cryo", "/Game/Gear/Weapons/Shotguns/Torgue/_Shared/_Design/Parts/Elemental/Part_SG_Torgue_Ele_Cryo"],
+                    "Weight": {
+                        "BaseValueConstant": 1.0,
+                        "DataTableValue": {
+                            "DataTable": {
+                                "export": 0
+                            },
+                            "RowName": "None",
+                            "ValueName": "None"
+                        },
+                        "BaseValueAttribute": {
+                            "export": 0
+                        },
+                        "AttributeInitializer": {
+                            "export": 0
+                        },
+                        "BaseValueScale": 1.0
+                    }
+                }, {
+                    "PartData": ["Part_SG_Torgue_Material_04_VeryRare", "/Game/Gear/Weapons/Shotguns/Torgue/_Shared/_Design/Parts/Material/Part_SG_Torgue_Material_04_VeryRare"],
+                    "Weight": {
+                        "BaseValueConstant": 1.0,
+                        "DataTableValue": {
+                            "DataTable": {
+                                "export": 0
+                            },
+                            "RowName": "None",
+                            "ValueName": "None"
+                        },
+                        "BaseValueAttribute": {
+                            "export": 0
+                        },
+                        "AttributeInitializer": {
+                            "export": 0
+                        },
+                        "BaseValueScale": 1.0
+                    }
+                }
+            ]
+        },
+        "RuntimePartListGuid": "a7588bc94f0a0a4bf5e30c90015e7946"
+    }
+]

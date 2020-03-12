@@ -1,0 +1,1866 @@
+[{
+        "export_type": "DataTable",
+        "Mini_MIRV": {
+            "export_type": "RowStruct",
+            "Mini_MIRV_50_960E3AFD411C617592DACFA9796A7640": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "MIRV_17_DC96F729430D5D4A214E1D857FB91872": {
+                "string": "Cluster-F*ck",
+                "namespace": "",
+                "key": "395753054023563C286866A447427F6D"
+            },
+            "Rain_47_17C394D845E9E838A4098680A2A15253": {
+                "string": "Spitter",
+                "namespace": "",
+                "key": "4B11D5C84647170B432147A97E80A8C3"
+            },
+            "Nuke_18_1D96D0B941AAC412E60BB78D7BD45EFD": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Large_19_56D72A414195B55BD43348B627A952F8": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Bouncy_20_8C1D840D47FE08C54A264E972861F997": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Spring_27_2607C66A46248F2F2B90AEB7DA859A88": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Sticky_25_406BBEC94DC8CC9716AD19BB17F42050": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Artillery_28_D4B7567F4A815E84427CBD987379CE90": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Lingering_42_D8830EE246CCD04933A753AF75C40314": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Divide_34_B37B094746323F0DA47B0087ABEE3CC0": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Singularity_35_C3D8824746A4F44CFE6CE0A14DEA9447": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Roider_26_B36E2BCC41F29B3C4864A888735BEDBE": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Link_43_E47EA7EF4E8DA0AC89DBC89DDBFA927A": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Transfusion_41_D5A19FFA4BAE5316252134822974F0EF": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Generator_36_A0B8B3D5474F98BF1F666AA5366EF573": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "ElementalDamage_44_1B6A909E46B96892A6A365BB4E385ABA": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Force_48_B8BA6946490C52501065F39FAF31B971": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Money_37_13CEBCC8427880CE802C0ABAADA6FEC2": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            }
+        },
+        "MIRV": {
+            "export_type": "RowStruct",
+            "Mini_MIRV_50_960E3AFD411C617592DACFA9796A7640": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "MIRV_17_DC96F729430D5D4A214E1D857FB91872": {
+                "string": "MIRV-Tacular",
+                "namespace": "",
+                "key": "75F2582449D19B830B096488E3060FAB"
+            },
+            "Rain_47_17C394D845E9E838A4098680A2A15253": {
+                "string": "Carpet Bomber",
+                "namespace": "",
+                "key": "9AC6DF6040284ADDCDD9F9A7681A8637"
+            },
+            "Nuke_18_1D96D0B941AAC412E60BB78D7BD45EFD": {
+                "string": "Rapture",
+                "namespace": "",
+                "key": "5B660FEC4A2E0308B57EEDB4FDEB57E2"
+            },
+            "Large_19_56D72A414195B55BD43348B627A952F8": {
+                "string": "Big Bangatron",
+                "namespace": "",
+                "key": "D5234C2440A29E26F56DE79742478FE1"
+            },
+            "Bouncy_20_8C1D840D47FE08C54A264E972861F997": {
+                "string": "Maddening",
+                "namespace": "",
+                "key": "BB9CC88247A3302CAC4042BF3B05C9DD"
+            },
+            "Spring_27_2607C66A46248F2F2B90AEB7DA859A88": {
+                "string": "Riven",
+                "namespace": "",
+                "key": "BAE07510471AB8A4412D1AA20365A59C"
+            },
+            "Sticky_25_406BBEC94DC8CC9716AD19BB17F42050": {
+                "string": "Minefield",
+                "namespace": "",
+                "key": "2C63787B4EFD7E22755823BDD88EA745"
+            },
+            "Artillery_28_D4B7567F4A815E84427CBD987379CE90": {
+                "string": "Bullet Storm",
+                "namespace": "",
+                "key": "F3C12AB9468AE51A6814B4B41A46335D"
+            },
+            "Lingering_42_D8830EE246CCD04933A753AF75C40314": {
+                "string": "Nebulizing",
+                "namespace": "",
+                "key": "B6466B244ED70D9489A8EBBED6C7CC29"
+            },
+            "Divide_34_B37B094746323F0DA47B0087ABEE3CC0": {
+                "string": "Recurring",
+                "namespace": "",
+                "key": "B83B52434C5F0233DBF00B9F50548010"
+            },
+            "Singularity_35_C3D8824746A4F44CFE6CE0A14DEA9447": {
+                "string": "Starchild",
+                "namespace": "",
+                "key": "09101C904154AFB5579D34AA6FC6B45C"
+            },
+            "Roider_26_B36E2BCC41F29B3C4864A888735BEDBE": {
+                "string": "Notorious MIRV",
+                "namespace": "",
+                "key": "A386BDB64CDC05513AF174ACC50CFC82"
+            },
+            "Link_43_E47EA7EF4E8DA0AC89DBC89DDBFA927A": {
+                "string": "Networking",
+                "namespace": "",
+                "key": "6AC769F241882FE388A13FAAC854995A"
+            },
+            "Transfusion_41_D5A19FFA4BAE5316252134822974F0EF": {
+                "string": "First Responder",
+                "namespace": "",
+                "key": "5A2CE53F4FECA326775C2ABF17F4004D"
+            },
+            "Generator_36_A0B8B3D5474F98BF1F666AA5366EF573": {
+                "string": "Power Grid",
+                "namespace": "",
+                "key": "E0C0C96F47D14747D4D885AD5DEE4B81"
+            },
+            "ElementalDamage_44_1B6A909E46B96892A6A365BB4E385ABA": {
+                "string": "Prismatic",
+                "namespace": "",
+                "key": "FBFEAD024A98213031BF85BFF4C08C69"
+            },
+            "Force_48_B8BA6946490C52501065F39FAF31B971": {
+                "string": "Spaz-Matic",
+                "namespace": "",
+                "key": "2F4DDDB64EACCBDE8C0A1383B64BA017"
+            },
+            "Money_37_13CEBCC8427880CE802C0ABAADA6FEC2": {
+                "string": "Diversifying",
+                "namespace": "",
+                "key": "70228A1E432872AECA91A8901B271E6B"
+            }
+        },
+        "Rain": {
+            "export_type": "RowStruct",
+            "Mini_MIRV_50_960E3AFD411C617592DACFA9796A7640": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "MIRV_17_DC96F729430D5D4A214E1D857FB91872": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Rain_47_17C394D845E9E838A4098680A2A15253": {
+                "string": "Airstrike",
+                "namespace": "",
+                "key": "44313BAB40C9BE54E473C6953EB9002D"
+            },
+            "Nuke_18_1D96D0B941AAC412E60BB78D7BD45EFD": {
+                "string": "Mass Extinction",
+                "namespace": "",
+                "key": "3EF424CB47C5DBBE575AE6972CFEA687"
+            },
+            "Large_19_56D72A414195B55BD43348B627A952F8": {
+                "string": "Diluvian",
+                "namespace": "",
+                "key": "69FF180A4181A69341D484983F0C8C21"
+            },
+            "Bouncy_20_8C1D840D47FE08C54A264E972861F997": {
+                "string": "Flurry",
+                "namespace": "",
+                "key": "4503938E4211F78286E477A870432A6D"
+            },
+            "Spring_27_2607C66A46248F2F2B90AEB7DA859A88": {
+                "string": "Percipitater",
+                "namespace": "",
+                "key": "CA2A219C40F5E000BBBCB2815E90ECE4"
+            },
+            "Sticky_25_406BBEC94DC8CC9716AD19BB17F42050": {
+                "string": "Gridlock",
+                "namespace": "",
+                "key": "D29F4D064671F084E4607BA079DE05D9"
+            },
+            "Artillery_28_D4B7567F4A815E84427CBD987379CE90": {
+                "string": "Mass Recoil",
+                "namespace": "",
+                "key": "E46D1D4645AED1DA505515A0D01B1964"
+            },
+            "Lingering_42_D8830EE246CCD04933A753AF75C40314": {
+                "string": "Monsoon",
+                "namespace": "",
+                "key": "A35B94184581EE5A6887B18E930F5ECC"
+            },
+            "Divide_34_B37B094746323F0DA47B0087ABEE3CC0": {
+                "string": "Flood",
+                "namespace": "",
+                "key": "BE06DC814A41D3B4835762B66D3E7C81"
+            },
+            "Singularity_35_C3D8824746A4F44CFE6CE0A14DEA9447": {
+                "string": "Gravity Salvo",
+                "namespace": "",
+                "key": "1BB3254C43BD0E6CBDDE0A90C0D2F8D7"
+            },
+            "Roider_26_B36E2BCC41F29B3C4864A888735BEDBE": {
+                "string": "Armageddon",
+                "namespace": "",
+                "key": "F7F56C0C4CBDD1CF6AEE9B85A1B766C1"
+            },
+            "Link_43_E47EA7EF4E8DA0AC89DBC89DDBFA927A": {
+                "string": "Umbrella",
+                "namespace": "",
+                "key": "17E2EFDF4254AC62D00F2D87E0134558"
+            },
+            "Transfusion_41_D5A19FFA4BAE5316252134822974F0EF": {
+                "string": "Stim Splitter",
+                "namespace": "",
+                "key": "09A13A0742975FB5F728C389007AB298"
+            },
+            "Generator_36_A0B8B3D5474F98BF1F666AA5366EF573": {
+                "string": "Short Circuit",
+                "namespace": "",
+                "key": "069C51784477DAF72D9FF99043763897"
+            },
+            "ElementalDamage_44_1B6A909E46B96892A6A365BB4E385ABA": {
+                "string": "Acid Rain",
+                "namespace": "",
+                "key": "AC57458444CA7CB06BDEFEBF25C2F821"
+            },
+            "Force_48_B8BA6946490C52501065F39FAF31B971": {
+                "string": "Spaz-Matic",
+                "namespace": "",
+                "key": "906563514550E497F7A556B4112B7F3E"
+            },
+            "Money_37_13CEBCC8427880CE802C0ABAADA6FEC2": {
+                "string": "Make It Rain",
+                "namespace": "",
+                "key": "490061C046340614B6AD3D8569D32083"
+            }
+        },
+        "Nuke": {
+            "export_type": "RowStruct",
+            "Mini_MIRV_50_960E3AFD411C617592DACFA9796A7640": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "MIRV_17_DC96F729430D5D4A214E1D857FB91872": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Rain_47_17C394D845E9E838A4098680A2A15253": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Nuke_18_1D96D0B941AAC412E60BB78D7BD45EFD": {
+                "string": "Atomic",
+                "namespace": "",
+                "key": "0E02C04F493847DF7596A886E463E9E7"
+            },
+            "Large_19_56D72A414195B55BD43348B627A952F8": {
+                "string": "Mega Fission",
+                "namespace": "",
+                "key": "B60FA95B4BABD7E0219AC7AAEDF66405"
+            },
+            "Bouncy_20_8C1D840D47FE08C54A264E972861F997": {
+                "string": "Rocket Jumper",
+                "namespace": "",
+                "key": "B68F788847A7FD866D0D98BB5DCD7382"
+            },
+            "Spring_27_2607C66A46248F2F2B90AEB7DA859A88": {
+                "string": "Fallout",
+                "namespace": "",
+                "key": "30D0735A44C14FB2D68E4784DD66E89A"
+            },
+            "Sticky_25_406BBEC94DC8CC9716AD19BB17F42050": {
+                "string": "Breifcase Bomb",
+                "namespace": "",
+                "key": "CB789CF54BAE71C7AB56C396614C4A2B"
+            },
+            "Artillery_28_D4B7567F4A815E84427CBD987379CE90": {
+                "string": "Hot Shot",
+                "namespace": "",
+                "key": "3C97195A48B57AB5896C978E0A9E0731"
+            },
+            "Lingering_42_D8830EE246CCD04933A753AF75C40314": {
+                "string": "Nuclear Winter",
+                "namespace": "",
+                "key": "41BB5E63433B8171C69F44A2DA0C2DDD"
+            },
+            "Divide_34_B37B094746323F0DA47B0087ABEE3CC0": {
+                "string": "Atom Splitter",
+                "namespace": "",
+                "key": "F8A7E28E4C1FD774FDA16D951CE832F0"
+            },
+            "Singularity_35_C3D8824746A4F44CFE6CE0A14DEA9447": {
+                "string": "Supernova",
+                "namespace": "",
+                "key": "13F3D48847610606C5EE28B5A0567966"
+            },
+            "Roider_26_B36E2BCC41F29B3C4864A888735BEDBE": {
+                "string": "Hulking",
+                "namespace": "",
+                "key": "CD7845434519379FC50B0588C45E071E"
+            },
+            "Link_43_E47EA7EF4E8DA0AC89DBC89DDBFA927A": {
+                "string": "MAD",
+                "namespace": "",
+                "key": "6EEE22C0447E1BCD281A06AE028E0880"
+            },
+            "Transfusion_41_D5A19FFA4BAE5316252134822974F0EF": {
+                "string": "Phenomabomb",
+                "namespace": "",
+                "key": "5E3C1C294A5A80C5C945B7A9A53E8562"
+            },
+            "Generator_36_A0B8B3D5474F98BF1F666AA5366EF573": {
+                "string": "Reactor",
+                "namespace": "",
+                "key": "7087608346E32DDFB14FEE8527A37038"
+            },
+            "ElementalDamage_44_1B6A909E46B96892A6A365BB4E385ABA": {
+                "string": "Dirty Bomb",
+                "namespace": "",
+                "key": "E845B6334F1C403FD3E1818919896FD6"
+            },
+            "Force_48_B8BA6946490C52501065F39FAF31B971": {
+                "string": "Shockwave",
+                "namespace": "",
+                "key": "FC50091C424BDD933DB24BB71D949AD6"
+            },
+            "Money_37_13CEBCC8427880CE802C0ABAADA6FEC2": {
+                "string": "Investing",
+                "namespace": "",
+                "key": "9BBE41ED4A24292DBC7F38AA8424FBEF"
+            }
+        },
+        "Large": {
+            "export_type": "RowStruct",
+            "Mini_MIRV_50_960E3AFD411C617592DACFA9796A7640": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "MIRV_17_DC96F729430D5D4A214E1D857FB91872": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Rain_47_17C394D845E9E838A4098680A2A15253": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Nuke_18_1D96D0B941AAC412E60BB78D7BD45EFD": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Large_19_56D72A414195B55BD43348B627A952F8": {
+                "string": "Giant",
+                "namespace": "",
+                "key": "1B6105F34417701D2C126093B1F31DC7"
+            },
+            "Bouncy_20_8C1D840D47FE08C54A264E972861F997": {
+                "string": "Jump Jumper",
+                "namespace": "",
+                "key": "D0CC3C2C40E6AF2101A540AC48BCA65A"
+            },
+            "Spring_27_2607C66A46248F2F2B90AEB7DA859A88": {
+                "string": "Big-Spring",
+                "namespace": "",
+                "key": "72379FD34C6F06319C7F2B858F95ED61"
+            },
+            "Sticky_25_406BBEC94DC8CC9716AD19BB17F42050": {
+                "string": "Viscous",
+                "namespace": "",
+                "key": "6D7531124AA0571ED54A8BA5A1426FEC"
+            },
+            "Artillery_28_D4B7567F4A815E84427CBD987379CE90": {
+                "string": "Big Shot",
+                "namespace": "",
+                "key": "C013EDA646B6AF58EBDF0ABEB9C2CC10"
+            },
+            "Lingering_42_D8830EE246CCD04933A753AF75C40314": {
+                "string": "Scorched Earth",
+                "namespace": "",
+                "key": "67EC0861491A9803BD0018903708EC96"
+            },
+            "Divide_34_B37B094746323F0DA47B0087ABEE3CC0": {
+                "string": "Big Brother",
+                "namespace": "",
+                "key": "0A41C5A247771AB48FCB49A96EF2305C"
+            },
+            "Singularity_35_C3D8824746A4F44CFE6CE0A14DEA9447": {
+                "string": "Expansive",
+                "namespace": "",
+                "key": "1F80AD5948F7C0C0B4EEA68AFF286E78"
+            },
+            "Roider_26_B36E2BCC41F29B3C4864A888735BEDBE": {
+                "string": "Jacked",
+                "namespace": "",
+                "key": "EF97F89E4BE89566E5B348A261DAF054"
+            },
+            "Link_43_E47EA7EF4E8DA0AC89DBC89DDBFA927A": {
+                "string": "Indiscriminate",
+                "namespace": "",
+                "key": "BCD2CF8A413DCE0B38A4D99ED1A9316A"
+            },
+            "Transfusion_41_D5A19FFA4BAE5316252134822974F0EF": {
+                "string": "Big-Pharma",
+                "namespace": "",
+                "key": "C3182E3144927D7D8921A8B36A6330C6"
+            },
+            "Generator_36_A0B8B3D5474F98BF1F666AA5366EF573": {
+                "string": "Megawatt",
+                "namespace": "",
+                "key": "3875A0544F4368DE7AD46EB3DB99B52F"
+            },
+            "ElementalDamage_44_1B6A909E46B96892A6A365BB4E385ABA": {
+                "string": "Disastrous",
+                "namespace": "",
+                "key": "3BE3F1D344894A67DD706E8F61CE67FB"
+            },
+            "Force_48_B8BA6946490C52501065F39FAF31B971": {
+                "string": "MOAB",
+                "namespace": "",
+                "key": "A9F982CE4D5BE6ADCA0CC28FEAC8C5E2"
+            },
+            "Money_37_13CEBCC8427880CE802C0ABAADA6FEC2": {
+                "string": "Big Spender",
+                "namespace": "",
+                "key": "CDE03AFC4062E1E07437A6BA6EC4F45F"
+            }
+        },
+        "Bouncy": {
+            "export_type": "RowStruct",
+            "Mini_MIRV_50_960E3AFD411C617592DACFA9796A7640": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "MIRV_17_DC96F729430D5D4A214E1D857FB91872": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Rain_47_17C394D845E9E838A4098680A2A15253": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Nuke_18_1D96D0B941AAC412E60BB78D7BD45EFD": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Large_19_56D72A414195B55BD43348B627A952F8": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Bouncy_20_8C1D840D47FE08C54A264E972861F997": {
+                "string": "Rubber",
+                "namespace": "",
+                "key": "F972140F483EE2DF46DAF4AF8002778D"
+            },
+            "Spring_27_2607C66A46248F2F2B90AEB7DA859A88": {
+                "string": "Jumping Jack",
+                "namespace": "",
+                "key": "2BE17F6641A50954AFED318F06CF3915"
+            },
+            "Sticky_25_406BBEC94DC8CC9716AD19BB17F42050": {
+                "string": "Bonding",
+                "namespace": "",
+                "key": "ADBC059542A288035D2080800773E740"
+            },
+            "Artillery_28_D4B7567F4A815E84427CBD987379CE90": {
+                "string": "Driveby",
+                "namespace": "",
+                "key": "52E9F88E4C0D4AE92BA135A594C02A0B"
+            },
+            "Lingering_42_D8830EE246CCD04933A753AF75C40314": {
+                "string": "Trailblazing",
+                "namespace": "",
+                "key": "28382685452226F6990DB08A5D0F8393"
+            },
+            "Divide_34_B37B094746323F0DA47B0087ABEE3CC0": {
+                "string": "Alley Oop",
+                "namespace": "",
+                "key": "1BF142554294F2BBEF0AFCA23AC2FD39"
+            },
+            "Singularity_35_C3D8824746A4F44CFE6CE0A14DEA9447": {
+                "string": "Chaotic",
+                "namespace": "",
+                "key": "48AFBFF242172DC318DD10873608F79E"
+            },
+            "Roider_26_B36E2BCC41F29B3C4864A888735BEDBE": {
+                "string": "Pounding",
+                "namespace": "",
+                "key": "9C5633D3487464A4152299B864A6B9FD"
+            },
+            "Link_43_E47EA7EF4E8DA0AC89DBC89DDBFA927A": {
+                "string": "Chaining",
+                "namespace": "",
+                "key": "D410A3524A1431B02FA709AEDA2B6D45"
+            },
+            "Transfusion_41_D5A19FFA4BAE5316252134822974F0EF": {
+                "string": "Paramedic",
+                "namespace": "",
+                "key": "750C5FDA44245713C0CB6594D823DFC9"
+            },
+            "Generator_36_A0B8B3D5474F98BF1F666AA5366EF573": {
+                "string": "Arcing",
+                "namespace": "",
+                "key": "CE1F90D64FC7DC64BE27BCA6A1E9F00E"
+            },
+            "ElementalDamage_44_1B6A909E46B96892A6A365BB4E385ABA": {
+                "string": "Stormchaser",
+                "namespace": "",
+                "key": "8887AD9F482C512CA0E84380F4556852"
+            },
+            "Force_48_B8BA6946490C52501065F39FAF31B971": {
+                "string": "Pushinator",
+                "namespace": "",
+                "key": "3BBBEB4640F4C4EE9639488ABA241F59"
+            },
+            "Money_37_13CEBCC8427880CE802C0ABAADA6FEC2": {
+                "string": "Bullish",
+                "namespace": "",
+                "key": "4226F9C3426687D003B7728D6BEA8FF5"
+            }
+        },
+        "Spring": {
+            "export_type": "RowStruct",
+            "Mini_MIRV_50_960E3AFD411C617592DACFA9796A7640": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "MIRV_17_DC96F729430D5D4A214E1D857FB91872": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Rain_47_17C394D845E9E838A4098680A2A15253": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Nuke_18_1D96D0B941AAC412E60BB78D7BD45EFD": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Large_19_56D72A414195B55BD43348B627A952F8": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Bouncy_20_8C1D840D47FE08C54A264E972861F997": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Spring_27_2607C66A46248F2F2B90AEB7DA859A88": {
+                "string": "Coiled-Spring",
+                "namespace": "",
+                "key": "64E252B44866B9335D0B70BC8D1CD6FC"
+            },
+            "Sticky_25_406BBEC94DC8CC9716AD19BB17F42050": {
+                "string": "Thumper",
+                "namespace": "",
+                "key": "8A172C4542AFDA7FA6F29F937DED77C0"
+            },
+            "Artillery_28_D4B7567F4A815E84427CBD987379CE90": {
+                "string": "Jump Shot",
+                "namespace": "",
+                "key": "99B6657F4A8790D54020F7B216388DDF"
+            },
+            "Lingering_42_D8830EE246CCD04933A753AF75C40314": {
+                "string": "Bombardment",
+                "namespace": "",
+                "key": "F278EA5541D072884973D49DA34C2CF5"
+            },
+            "Divide_34_B37B094746323F0DA47B0087ABEE3CC0": {
+                "string": "Double Buck",
+                "namespace": "",
+                "key": "855EFBB346AFBAD9987ECBBC284E59B1"
+            },
+            "Singularity_35_C3D8824746A4F44CFE6CE0A14DEA9447": {
+                "string": "No Escape",
+                "namespace": "",
+                "key": "09A4B64F4EB22AF624CEE785542B11D5"
+            },
+            "Roider_26_B36E2BCC41F29B3C4864A888735BEDBE": {
+                "string": "Power Jacker",
+                "namespace": "",
+                "key": "5C5EF416475FE6EC384CA5AB8DB90B5E"
+            },
+            "Link_43_E47EA7EF4E8DA0AC89DBC89DDBFA927A": {
+                "string": "Trampoline",
+                "namespace": "",
+                "key": "31EA45D74E19A4CA5DB77F985004539F"
+            },
+            "Transfusion_41_D5A19FFA4BAE5316252134822974F0EF": {
+                "string": "Heartbeat",
+                "namespace": "",
+                "key": "AE7DEFD5469B2F41934DDEB8F57F70BC"
+            },
+            "Generator_36_A0B8B3D5474F98BF1F666AA5366EF573": {
+                "string": "Alternating",
+                "namespace": "",
+                "key": "7AE333B8444CA224594250AE181F1B38"
+            },
+            "ElementalDamage_44_1B6A909E46B96892A6A365BB4E385ABA": {
+                "string": "Recurrent",
+                "namespace": "",
+                "key": "D637A7F54E60097F7FDCD2BD7B11EDDA"
+            },
+            "Force_48_B8BA6946490C52501065F39FAF31B971": {
+                "string": "Forbidden Zone",
+                "namespace": "",
+                "key": "0507AAAB41CA3FE1F81393BDC25319C1"
+            },
+            "Money_37_13CEBCC8427880CE802C0ABAADA6FEC2": {
+                "string": "Depreciating",
+                "namespace": "",
+                "key": "B116998A418F753EEA0C2DB6E5533441"
+            }
+        },
+        "Sticky": {
+            "export_type": "RowStruct",
+            "Mini_MIRV_50_960E3AFD411C617592DACFA9796A7640": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "MIRV_17_DC96F729430D5D4A214E1D857FB91872": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Rain_47_17C394D845E9E838A4098680A2A15253": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Nuke_18_1D96D0B941AAC412E60BB78D7BD45EFD": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Large_19_56D72A414195B55BD43348B627A952F8": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Bouncy_20_8C1D840D47FE08C54A264E972861F997": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Spring_27_2607C66A46248F2F2B90AEB7DA859A88": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Sticky_25_406BBEC94DC8CC9716AD19BB17F42050": {
+                "string": "Proximity Mine",
+                "namespace": "",
+                "key": "01B02A8046F864A663123DA0515EEEBD"
+            },
+            "Artillery_28_D4B7567F4A815E84427CBD987379CE90": {
+                "string": "Trap-N-Tap",
+                "namespace": "",
+                "key": "999D8B464BF478DE83DDEEB22AB458CD"
+            },
+            "Lingering_42_D8830EE246CCD04933A753AF75C40314": {
+                "string": "Delayed Gratification",
+                "namespace": "",
+                "key": "C7A702F7474F6F25263F858351F8CA13"
+            },
+            "Divide_34_B37B094746323F0DA47B0087ABEE3CC0": {
+                "string": "Coupled",
+                "namespace": "",
+                "key": "1C48B4554E484C6EE79DBEBA3F54D5D4"
+            },
+            "Singularity_35_C3D8824746A4F44CFE6CE0A14DEA9447": {
+                "string": "Decision Maker",
+                "namespace": "",
+                "key": "A558B02349C78F28C5C0C0870D23AF0B"
+            },
+            "Roider_26_B36E2BCC41F29B3C4864A888735BEDBE": {
+                "string": "Claymore",
+                "namespace": "",
+                "key": "FC704AD44C6308980491B298E158CF08"
+            },
+            "Link_43_E47EA7EF4E8DA0AC89DBC89DDBFA927A": {
+                "string": "Webbing",
+                "namespace": "",
+                "key": "9E6288A043EF7DBF6A5B9397ED578981"
+            },
+            "Transfusion_41_D5A19FFA4BAE5316252134822974F0EF": {
+                "string": "Bandage-AID",
+                "namespace": "",
+                "key": "70C1AA33406DACEB15CAD6ABDE6ACA26"
+            },
+            "Generator_36_A0B8B3D5474F98BF1F666AA5366EF573": {
+                "string": "Plug",
+                "namespace": "",
+                "key": "110DAC1B42E6F846A87021A40355C36D"
+            },
+            "ElementalDamage_44_1B6A909E46B96892A6A365BB4E385ABA": {
+                "string": "Gelatinous",
+                "namespace": "",
+                "key": "3A86C32E45976A943DD42796842AE31F"
+            },
+            "Force_48_B8BA6946490C52501065F39FAF31B971": {
+                "string": "GTFO",
+                "namespace": "",
+                "key": "BB7CB8F742FAF5CA0E4024A81B2F7302"
+            },
+            "Money_37_13CEBCC8427880CE802C0ABAADA6FEC2": {
+                "string": "Price Fixing",
+                "namespace": "",
+                "key": "137E639E4370869E25A5EC94978FC478"
+            }
+        },
+        "Artillery": {
+            "export_type": "RowStruct",
+            "Mini_MIRV_50_960E3AFD411C617592DACFA9796A7640": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "MIRV_17_DC96F729430D5D4A214E1D857FB91872": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Rain_47_17C394D845E9E838A4098680A2A15253": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Nuke_18_1D96D0B941AAC412E60BB78D7BD45EFD": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Large_19_56D72A414195B55BD43348B627A952F8": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Bouncy_20_8C1D840D47FE08C54A264E972861F997": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Spring_27_2607C66A46248F2F2B90AEB7DA859A88": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Sticky_25_406BBEC94DC8CC9716AD19BB17F42050": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Artillery_28_D4B7567F4A815E84427CBD987379CE90": {
+                "string": "Long Shot",
+                "namespace": "",
+                "key": "992E0C3844BCC1488019FB91A7E0E90D"
+            },
+            "Lingering_42_D8830EE246CCD04933A753AF75C40314": {
+                "string": "Barrage",
+                "namespace": "",
+                "key": "4408B1744F78F4F6881E9C9A4459DDE8"
+            },
+            "Divide_34_B37B094746323F0DA47B0087ABEE3CC0": {
+                "string": "Twin-Shooter",
+                "namespace": "",
+                "key": "32D8AD2A466DFAB02C87FB8628BFB6E0"
+            },
+            "Singularity_35_C3D8824746A4F44CFE6CE0A14DEA9447": {
+                "string": "Killzone",
+                "namespace": "",
+                "key": "496C504449BA487B2279FEB798E3BA1C"
+            },
+            "Roider_26_B36E2BCC41F29B3C4864A888735BEDBE": {
+                "string": "High Caliber",
+                "namespace": "",
+                "key": "926583DF4BD9F1329A0AC8860CE9085F"
+            },
+            "Link_43_E47EA7EF4E8DA0AC89DBC89DDBFA927A": {
+                "string": "---NONE---",
+                "namespace": "",
+                "key": "5DFF4E2140D343389029D6AB79ADDE06"
+            },
+            "Transfusion_41_D5A19FFA4BAE5316252134822974F0EF": {
+                "string": "---NONE---",
+                "namespace": "",
+                "key": "C8CB948447ABBB0211A0ECBCD67184E1"
+            },
+            "Generator_36_A0B8B3D5474F98BF1F666AA5366EF573": {
+                "string": "---NONE---",
+                "namespace": "",
+                "key": "39BBA35E4199E23FD57234A575B16828"
+            },
+            "ElementalDamage_44_1B6A909E46B96892A6A365BB4E385ABA": {
+                "string": "Firecracker",
+                "namespace": "",
+                "key": "DA6A7F514D90F31FD98C349C55713368"
+            },
+            "Force_48_B8BA6946490C52501065F39FAF31B971": {
+                "string": "Dolphin Dive",
+                "namespace": "",
+                "key": "BE6D1D574F453D7ABCB9389F7351882E"
+            },
+            "Money_37_13CEBCC8427880CE802C0ABAADA6FEC2": {
+                "string": "Windfall",
+                "namespace": "",
+                "key": "ADC38AE947FECF88024C9DAE32EED5AD"
+            }
+        },
+        "Lingering": {
+            "export_type": "RowStruct",
+            "Mini_MIRV_50_960E3AFD411C617592DACFA9796A7640": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "MIRV_17_DC96F729430D5D4A214E1D857FB91872": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Rain_47_17C394D845E9E838A4098680A2A15253": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Nuke_18_1D96D0B941AAC412E60BB78D7BD45EFD": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Large_19_56D72A414195B55BD43348B627A952F8": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Bouncy_20_8C1D840D47FE08C54A264E972861F997": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Spring_27_2607C66A46248F2F2B90AEB7DA859A88": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Sticky_25_406BBEC94DC8CC9716AD19BB17F42050": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Artillery_28_D4B7567F4A815E84427CBD987379CE90": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Lingering_42_D8830EE246CCD04933A753AF75C40314": {
+                "string": "Persistent",
+                "namespace": "",
+                "key": "15BED2E34660845298FBC986BD4B0622"
+            },
+            "Divide_34_B37B094746323F0DA47B0087ABEE3CC0": {
+                "string": "Twin Pillar",
+                "namespace": "",
+                "key": "C1861411478A3A65B0E92CBA83EB2051"
+            },
+            "Singularity_35_C3D8824746A4F44CFE6CE0A14DEA9447": {
+                "string": "Annihilating",
+                "namespace": "",
+                "key": "C3F4E7F94F3D475080FB00B2266C9D26"
+            },
+            "Roider_26_B36E2BCC41F29B3C4864A888735BEDBE": {
+                "string": "Staying Power",
+                "namespace": "",
+                "key": "87D97AE0445081781DE9AC88E92AD1C3"
+            },
+            "Link_43_E47EA7EF4E8DA0AC89DBC89DDBFA927A": {
+                "string": "---NONE---",
+                "namespace": "",
+                "key": "37AC8EE1465DA4C36BFE0D86DA2514BA"
+            },
+            "Transfusion_41_D5A19FFA4BAE5316252134822974F0EF": {
+                "string": "---NONE---",
+                "namespace": "",
+                "key": "B23996344C1EEFC339471C8D5CE4A6AB"
+            },
+            "Generator_36_A0B8B3D5474F98BF1F666AA5366EF573": {
+                "string": "---NONE---",
+                "namespace": "",
+                "key": "087C7F7143AC7568880F36A0C77259B4"
+            },
+            "ElementalDamage_44_1B6A909E46B96892A6A365BB4E385ABA": {
+                "string": "Storming",
+                "namespace": "",
+                "key": "D37288084077BA884B7ED399E7F4C4B0"
+            },
+            "Force_48_B8BA6946490C52501065F39FAF31B971": {
+                "string": "Bad-Combo",
+                "namespace": "",
+                "key": "CB5E4CB2446045E7639B5F986931C02B"
+            },
+            "Money_37_13CEBCC8427880CE802C0ABAADA6FEC2": {
+                "string": "Jackpot",
+                "namespace": "",
+                "key": "739F03334002FE7DE891578DC57F199B"
+            }
+        },
+        "Divide": {
+            "export_type": "RowStruct",
+            "Mini_MIRV_50_960E3AFD411C617592DACFA9796A7640": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "MIRV_17_DC96F729430D5D4A214E1D857FB91872": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Rain_47_17C394D845E9E838A4098680A2A15253": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Nuke_18_1D96D0B941AAC412E60BB78D7BD45EFD": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Large_19_56D72A414195B55BD43348B627A952F8": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Bouncy_20_8C1D840D47FE08C54A264E972861F997": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Spring_27_2607C66A46248F2F2B90AEB7DA859A88": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Sticky_25_406BBEC94DC8CC9716AD19BB17F42050": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Artillery_28_D4B7567F4A815E84427CBD987379CE90": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Lingering_42_D8830EE246CCD04933A753AF75C40314": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Divide_34_B37B094746323F0DA47B0087ABEE3CC0": {
+                "string": "Mitosis",
+                "namespace": "",
+                "key": "8AB8F07C496702500D8DC0B3ABA7610E"
+            },
+            "Singularity_35_C3D8824746A4F44CFE6CE0A14DEA9447": {
+                "string": "Binary Singularity",
+                "namespace": "",
+                "key": "1D7E727642EAE20C5C5FCABE1F551ADB"
+            },
+            "Roider_26_B36E2BCC41F29B3C4864A888735BEDBE": {
+                "string": "Vindicator",
+                "namespace": "",
+                "key": "11D7C2BA458FFF24F2FA4FBD16DEA1FB"
+            },
+            "Link_43_E47EA7EF4E8DA0AC89DBC89DDBFA927A": {
+                "string": "Dual Channel",
+                "namespace": "",
+                "key": "31A88EAE4C274710F59BAC9CB3B5CBBF"
+            },
+            "Transfusion_41_D5A19FFA4BAE5316252134822974F0EF": {
+                "string": "Di-Zygonic",
+                "namespace": "",
+                "key": "315733D14FA825F9E4BE119904F84E89"
+            },
+            "Generator_36_A0B8B3D5474F98BF1F666AA5366EF573": {
+                "string": "Parallel Circuit",
+                "namespace": "",
+                "key": "1ED25B24405CC3BC13C9B9BBBBA12336"
+            },
+            "ElementalDamage_44_1B6A909E46B96892A6A365BB4E385ABA": {
+                "string": "Double Rainbow",
+                "namespace": "",
+                "key": "638CED1A4CBB6C7F3D9F098608BD1929"
+            },
+            "Force_48_B8BA6946490C52501065F39FAF31B971": {
+                "string": "Twin-Hitter",
+                "namespace": "",
+                "key": "4F8C7C334BDFAC1FD533249536844FE1"
+            },
+            "Money_37_13CEBCC8427880CE802C0ABAADA6FEC2": {
+                "string": "Compounding",
+                "namespace": "",
+                "key": "0D4F88D94A98AB20DF9222914DE855BE"
+            }
+        },
+        "Singularity": {
+            "export_type": "RowStruct",
+            "Mini_MIRV_50_960E3AFD411C617592DACFA9796A7640": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "MIRV_17_DC96F729430D5D4A214E1D857FB91872": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Rain_47_17C394D845E9E838A4098680A2A15253": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Nuke_18_1D96D0B941AAC412E60BB78D7BD45EFD": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Large_19_56D72A414195B55BD43348B627A952F8": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Bouncy_20_8C1D840D47FE08C54A264E972861F997": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Spring_27_2607C66A46248F2F2B90AEB7DA859A88": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Sticky_25_406BBEC94DC8CC9716AD19BB17F42050": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Artillery_28_D4B7567F4A815E84427CBD987379CE90": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Lingering_42_D8830EE246CCD04933A753AF75C40314": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Divide_34_B37B094746323F0DA47B0087ABEE3CC0": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Singularity_35_C3D8824746A4F44CFE6CE0A14DEA9447": {
+                "string": "Black Hole",
+                "namespace": "",
+                "key": "C9D3BBF7474B84F0152EA396A3AF80D5"
+            },
+            "Roider_26_B36E2BCC41F29B3C4864A888735BEDBE": {
+                "string": "Convultion",
+                "namespace": "",
+                "key": "5684731C4930D2E3B13FB9B97B8B2E15"
+            },
+            "Link_43_E47EA7EF4E8DA0AC89DBC89DDBFA927A": {
+                "string": "Mass Accretion",
+                "namespace": "",
+                "key": "C3BB2EE74F7F43566B75A384AFF8869C"
+            },
+            "Transfusion_41_D5A19FFA4BAE5316252134822974F0EF": {
+                "string": "Consultation",
+                "namespace": "",
+                "key": "C4773A8E48700C977A5D23959F8972A8"
+            },
+            "Generator_36_A0B8B3D5474F98BF1F666AA5366EF573": {
+                "string": "Vacuum Energy",
+                "namespace": "",
+                "key": "40DF2B3547BF831F40C3B1A3ABD765D0"
+            },
+            "ElementalDamage_44_1B6A909E46B96892A6A365BB4E385ABA": {
+                "string": "Supercell",
+                "namespace": "",
+                "key": "D7AD473146390255039ABB9CA28B2256"
+            },
+            "Force_48_B8BA6946490C52501065F39FAF31B971": {
+                "string": "---NONE---",
+                "namespace": "",
+                "key": "0E6F7A74482E2C34C4B118A5D664E81A"
+            },
+            "Money_37_13CEBCC8427880CE802C0ABAADA6FEC2": {
+                "string": "Moneysink",
+                "namespace": "",
+                "key": "CFA36DEE4DC691F2B0532FA1CDA3CF13"
+            }
+        },
+        "Roider": {
+            "export_type": "RowStruct",
+            "Mini_MIRV_50_960E3AFD411C617592DACFA9796A7640": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "MIRV_17_DC96F729430D5D4A214E1D857FB91872": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Rain_47_17C394D845E9E838A4098680A2A15253": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Nuke_18_1D96D0B941AAC412E60BB78D7BD45EFD": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Large_19_56D72A414195B55BD43348B627A952F8": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Bouncy_20_8C1D840D47FE08C54A264E972861F997": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Spring_27_2607C66A46248F2F2B90AEB7DA859A88": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Sticky_25_406BBEC94DC8CC9716AD19BB17F42050": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Artillery_28_D4B7567F4A815E84427CBD987379CE90": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Lingering_42_D8830EE246CCD04933A753AF75C40314": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Divide_34_B37B094746323F0DA47B0087ABEE3CC0": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Singularity_35_C3D8824746A4F44CFE6CE0A14DEA9447": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Roider_26_B36E2BCC41F29B3C4864A888735BEDBE": {
+                "string": "Juiced",
+                "namespace": "",
+                "key": "E79258024E18C7B7C4BF429A6ADC20E6"
+            },
+            "Link_43_E47EA7EF4E8DA0AC89DBC89DDBFA927A": {
+                "string": "Team-Building",
+                "namespace": "",
+                "key": "7FFEAEB54E8CD0872E147A94AD571C0D"
+            },
+            "Transfusion_41_D5A19FFA4BAE5316252134822974F0EF": {
+                "string": "Needler",
+                "namespace": "",
+                "key": "2FE0AE654C5562957B447589BA0DC4A7"
+            },
+            "Generator_36_A0B8B3D5474F98BF1F666AA5366EF573": {
+                "string": "Supercharged",
+                "namespace": "",
+                "key": "84F2DD8840730EF611141CB5F4F6D133"
+            },
+            "ElementalDamage_44_1B6A909E46B96892A6A365BB4E385ABA": {
+                "string": "Raw Power",
+                "namespace": "",
+                "key": "25CB23BC44889E9E1D7FC19E4E38E902"
+            },
+            "Force_48_B8BA6946490C52501065F39FAF31B971": {
+                "string": "Home Run",
+                "namespace": "",
+                "key": "3F4D0567487CC8F8A318588B4E7A8050"
+            },
+            "Money_37_13CEBCC8427880CE802C0ABAADA6FEC2": {
+                "string": "ROI Rage",
+                "namespace": "",
+                "key": "BB8DDCC046A3E6F364EA6B895D0661C2"
+            }
+        },
+        "Link": {
+            "export_type": "RowStruct",
+            "Mini_MIRV_50_960E3AFD411C617592DACFA9796A7640": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "MIRV_17_DC96F729430D5D4A214E1D857FB91872": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Rain_47_17C394D845E9E838A4098680A2A15253": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Nuke_18_1D96D0B941AAC412E60BB78D7BD45EFD": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Large_19_56D72A414195B55BD43348B627A952F8": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Bouncy_20_8C1D840D47FE08C54A264E972861F997": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Spring_27_2607C66A46248F2F2B90AEB7DA859A88": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Sticky_25_406BBEC94DC8CC9716AD19BB17F42050": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Artillery_28_D4B7567F4A815E84427CBD987379CE90": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Lingering_42_D8830EE246CCD04933A753AF75C40314": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Divide_34_B37B094746323F0DA47B0087ABEE3CC0": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Singularity_35_C3D8824746A4F44CFE6CE0A14DEA9447": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Roider_26_B36E2BCC41F29B3C4864A888735BEDBE": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Link_43_E47EA7EF4E8DA0AC89DBC89DDBFA927A": {
+                "string": "Unforgettable",
+                "namespace": "",
+                "key": "0E3E083145057FF3AB4A689996F98F7F"
+            },
+            "Transfusion_41_D5A19FFA4BAE5316252134822974F0EF": {
+                "string": "Stim Pack",
+                "namespace": "",
+                "key": "9AE008B24EEA54FE090D22AD1873412E"
+            },
+            "Generator_36_A0B8B3D5474F98BF1F666AA5366EF573": {
+                "string": "Series Circuit",
+                "namespace": "",
+                "key": "6E2C8EB742CC12DF0DD545AAE334C387"
+            },
+            "ElementalDamage_44_1B6A909E46B96892A6A365BB4E385ABA": {
+                "string": "Converging",
+                "namespace": "",
+                "key": "FE273FAB4202046809C820BE0BDD27B7"
+            },
+            "Force_48_B8BA6946490C52501065F39FAF31B971": {
+                "string": "Force Multiplier",
+                "namespace": "",
+                "key": "02BCE60345346C9BE13823B0FB14BF82"
+            },
+            "Money_37_13CEBCC8427880CE802C0ABAADA6FEC2": {
+                "string": "Pyramid Scheme",
+                "namespace": "",
+                "key": "B84969574D50DADD828C51A0D8C9EB2D"
+            }
+        },
+        "Transfusion": {
+            "export_type": "RowStruct",
+            "Mini_MIRV_50_960E3AFD411C617592DACFA9796A7640": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "MIRV_17_DC96F729430D5D4A214E1D857FB91872": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Rain_47_17C394D845E9E838A4098680A2A15253": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Nuke_18_1D96D0B941AAC412E60BB78D7BD45EFD": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Large_19_56D72A414195B55BD43348B627A952F8": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Bouncy_20_8C1D840D47FE08C54A264E972861F997": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Spring_27_2607C66A46248F2F2B90AEB7DA859A88": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Sticky_25_406BBEC94DC8CC9716AD19BB17F42050": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Artillery_28_D4B7567F4A815E84427CBD987379CE90": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Lingering_42_D8830EE246CCD04933A753AF75C40314": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Divide_34_B37B094746323F0DA47B0087ABEE3CC0": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Singularity_35_C3D8824746A4F44CFE6CE0A14DEA9447": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Roider_26_B36E2BCC41F29B3C4864A888735BEDBE": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Link_43_E47EA7EF4E8DA0AC89DBC89DDBFA927A": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Transfusion_41_D5A19FFA4BAE5316252134822974F0EF": {
+                "string": "Leeching",
+                "namespace": "",
+                "key": "F82B8307430F76E0F36401BBF428B135"
+            },
+            "Generator_36_A0B8B3D5474F98BF1F666AA5366EF573": {
+                "string": "Biofuel",
+                "namespace": "",
+                "key": "9FA5F70840EB2811B7A3FBA5C065058B"
+            },
+            "ElementalDamage_44_1B6A909E46B96892A6A365BB4E385ABA": {
+                "string": "All-Natural",
+                "namespace": "",
+                "key": "0A0F8DB24B11B71510AE849DA44F1EF0"
+            },
+            "Force_48_B8BA6946490C52501065F39FAF31B971": {
+                "string": "Defibrillator",
+                "namespace": "",
+                "key": "B0B0906149D1FA4959DE9E8976D27AC6"
+            },
+            "Money_37_13CEBCC8427880CE802C0ABAADA6FEC2": {
+                "string": "Cash Infusion",
+                "namespace": "",
+                "key": "0D87B8104566607A023E7D98ED3F5E68"
+            }
+        },
+        "Generator": {
+            "export_type": "RowStruct",
+            "Mini_MIRV_50_960E3AFD411C617592DACFA9796A7640": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "MIRV_17_DC96F729430D5D4A214E1D857FB91872": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Rain_47_17C394D845E9E838A4098680A2A15253": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Nuke_18_1D96D0B941AAC412E60BB78D7BD45EFD": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Large_19_56D72A414195B55BD43348B627A952F8": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Bouncy_20_8C1D840D47FE08C54A264E972861F997": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Spring_27_2607C66A46248F2F2B90AEB7DA859A88": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Sticky_25_406BBEC94DC8CC9716AD19BB17F42050": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Artillery_28_D4B7567F4A815E84427CBD987379CE90": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Lingering_42_D8830EE246CCD04933A753AF75C40314": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Divide_34_B37B094746323F0DA47B0087ABEE3CC0": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Singularity_35_C3D8824746A4F44CFE6CE0A14DEA9447": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Roider_26_B36E2BCC41F29B3C4864A888735BEDBE": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Link_43_E47EA7EF4E8DA0AC89DBC89DDBFA927A": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Transfusion_41_D5A19FFA4BAE5316252134822974F0EF": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Generator_36_A0B8B3D5474F98BF1F666AA5366EF573": {
+                "string": "Power Siphon",
+                "namespace": "",
+                "key": "55B9E4F94E48B2259489078155D0FF7D"
+            },
+            "ElementalDamage_44_1B6A909E46B96892A6A365BB4E385ABA": {
+                "string": "Green Energy",
+                "namespace": "",
+                "key": "7B54B6604286C2EBC3464C90CE2317AA"
+            },
+            "Force_48_B8BA6946490C52501065F39FAF31B971": {
+                "string": "Dynamo",
+                "namespace": "",
+                "key": "E95C17C245656ABF651A8EB4E2912406"
+            },
+            "Money_37_13CEBCC8427880CE802C0ABAADA6FEC2": {
+                "string": "Taxing",
+                "namespace": "",
+                "key": "56707AD34D933AB662DF69955334C171"
+            }
+        },
+        "ElementalDamage": {
+            "export_type": "RowStruct",
+            "Mini_MIRV_50_960E3AFD411C617592DACFA9796A7640": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "MIRV_17_DC96F729430D5D4A214E1D857FB91872": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Rain_47_17C394D845E9E838A4098680A2A15253": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Nuke_18_1D96D0B941AAC412E60BB78D7BD45EFD": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Large_19_56D72A414195B55BD43348B627A952F8": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Bouncy_20_8C1D840D47FE08C54A264E972861F997": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Spring_27_2607C66A46248F2F2B90AEB7DA859A88": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Sticky_25_406BBEC94DC8CC9716AD19BB17F42050": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Artillery_28_D4B7567F4A815E84427CBD987379CE90": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Lingering_42_D8830EE246CCD04933A753AF75C40314": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Divide_34_B37B094746323F0DA47B0087ABEE3CC0": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Singularity_35_C3D8824746A4F44CFE6CE0A14DEA9447": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Roider_26_B36E2BCC41F29B3C4864A888735BEDBE": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Link_43_E47EA7EF4E8DA0AC89DBC89DDBFA927A": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Transfusion_41_D5A19FFA4BAE5316252134822974F0EF": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Generator_36_A0B8B3D5474F98BF1F666AA5366EF573": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "ElementalDamage_44_1B6A909E46B96892A6A365BB4E385ABA": {
+                "string": "Environmental",
+                "namespace": "",
+                "key": "EE19CFC3428A4ADB17BDBA8B3247C060"
+            },
+            "Force_48_B8BA6946490C52501065F39FAF31B971": {
+                "string": "Striking",
+                "namespace": "",
+                "key": "95531FC6482487D6116B4FAA1FCF0966"
+            },
+            "Money_37_13CEBCC8427880CE802C0ABAADA6FEC2": {
+                "string": "Cash Infusion",
+                "namespace": "",
+                "key": "FD30C0484407B9512131FABFB6F6C66D"
+            }
+        },
+        "Force": {
+            "export_type": "RowStruct",
+            "Mini_MIRV_50_960E3AFD411C617592DACFA9796A7640": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "MIRV_17_DC96F729430D5D4A214E1D857FB91872": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Rain_47_17C394D845E9E838A4098680A2A15253": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Nuke_18_1D96D0B941AAC412E60BB78D7BD45EFD": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Large_19_56D72A414195B55BD43348B627A952F8": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Bouncy_20_8C1D840D47FE08C54A264E972861F997": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Spring_27_2607C66A46248F2F2B90AEB7DA859A88": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Sticky_25_406BBEC94DC8CC9716AD19BB17F42050": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Artillery_28_D4B7567F4A815E84427CBD987379CE90": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Lingering_42_D8830EE246CCD04933A753AF75C40314": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Divide_34_B37B094746323F0DA47B0087ABEE3CC0": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Singularity_35_C3D8824746A4F44CFE6CE0A14DEA9447": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Roider_26_B36E2BCC41F29B3C4864A888735BEDBE": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Link_43_E47EA7EF4E8DA0AC89DBC89DDBFA927A": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Transfusion_41_D5A19FFA4BAE5316252134822974F0EF": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Generator_36_A0B8B3D5474F98BF1F666AA5366EF573": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "ElementalDamage_44_1B6A909E46B96892A6A365BB4E385ABA": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Force_48_B8BA6946490C52501065F39FAF31B971": {
+                "string": "---NONE---",
+                "namespace": "",
+                "key": "D26053A944A60127BDCF11BF9428D1D5"
+            },
+            "Money_37_13CEBCC8427880CE802C0ABAADA6FEC2": {
+                "string": "Bailout",
+                "namespace": "",
+                "key": "D2BEE7E040AAD964DD5CD89A1D83861C"
+            }
+        },
+        "Money": {
+            "export_type": "RowStruct",
+            "Mini_MIRV_50_960E3AFD411C617592DACFA9796A7640": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "MIRV_17_DC96F729430D5D4A214E1D857FB91872": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Rain_47_17C394D845E9E838A4098680A2A15253": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Nuke_18_1D96D0B941AAC412E60BB78D7BD45EFD": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Large_19_56D72A414195B55BD43348B627A952F8": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Bouncy_20_8C1D840D47FE08C54A264E972861F997": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Spring_27_2607C66A46248F2F2B90AEB7DA859A88": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Sticky_25_406BBEC94DC8CC9716AD19BB17F42050": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Artillery_28_D4B7567F4A815E84427CBD987379CE90": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Lingering_42_D8830EE246CCD04933A753AF75C40314": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Divide_34_B37B094746323F0DA47B0087ABEE3CC0": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Singularity_35_C3D8824746A4F44CFE6CE0A14DEA9447": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Roider_26_B36E2BCC41F29B3C4864A888735BEDBE": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Link_43_E47EA7EF4E8DA0AC89DBC89DDBFA927A": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Transfusion_41_D5A19FFA4BAE5316252134822974F0EF": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Generator_36_A0B8B3D5474F98BF1F666AA5366EF573": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "ElementalDamage_44_1B6A909E46B96892A6A365BB4E385ABA": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Force_48_B8BA6946490C52501065F39FAF31B971": {
+                "string": "",
+                "namespace": "",
+                "key": ""
+            },
+            "Money_37_13CEBCC8427880CE802C0ABAADA6FEC2": {
+                "string": "Greed",
+                "namespace": "",
+                "key": "8528D38043D745CE97F1B896E5AFBA6B"
+            }
+        }
+    }
+]
