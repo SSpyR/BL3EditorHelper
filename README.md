@@ -17,5 +17,9 @@ Once launched you can use the generic help command and then help $commandname to
 
 When searching you don't need to know any file names just names of the items as they are in the files (a command to show items as they are named in files if they differ is included)
 
+# Resource
+If you don't know how to interpret the information displayed from this program apocalyptech wrote a very nice guide on how to look at it and understand what is going on:
+https://github.com/BLCM/BLCMods/wiki/Borderlands-3-Item-and-Weapon-Parts
+
 # Support
 If you have any issues with this program please contact me on Discord (SSpyR#7851) or submit an Issue log on Github. Thank you.
