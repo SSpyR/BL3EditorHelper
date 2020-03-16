@@ -5,6 +5,7 @@
 # Actually make a GUI
 # Make it pretty and simple
 # Had to adjust how the methods search for files do to how the exe unpacks it, may fix at some point (results in searching a lot more files than needed)
+# Make input take spaces cause apparently it doesnt (maybe not?)
 
 # Balance Alias: Balance, InvBalD
 # PartSet Alias: PartSet, Partset, InvPartSet, InvPart, BPInvPartSet

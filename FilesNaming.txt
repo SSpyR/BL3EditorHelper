@@ -21,6 +21,7 @@ WEAPONS
 - Fork > Redistributor (Unique)
 - Fork2 > Redistributor (Legendary)
 - ZeroForPlayer > Null Pointer
+- XZ > Hyperfocus XZ41 
 
 - Doc > The Flood
 - GodMother > King's/Queen's Call
