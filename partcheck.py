@@ -1,5 +1,6 @@
 # partcheck.py
 # Creator: SSpyR
+# Thanks to Prismatic for Creating the data cleaning functions
 # Thanks to A Bird for Creating the Initial File System Collection
 
 # Actually make a GUI
@@ -83,6 +84,47 @@ class EditorHelper(Cmd):
     def help_part(self):
         print('Use this to search for PartSet files. \nSimply do bal and then the name of the item you want to get the file for. \nMake sure to reference with the naming command and use the full name of the item (should be one word most of the time)')
 
+    # Extracts select information from Partset files.
+    def getParts(self, FileContentsAsString, target):
+        if "Weapons" in target: 
+            toReturn = ""
+            anoints = ""
+            content = FileContentsAsString.split("\n")
+            
+            for i in range(0, len(content)):
+                if ("GPart_" in content[i]):
+                    part = content[i].split("/")
+                    if len(part)>6:
+                        anoints = anoints + "\n" + part[-1][6:len(part[-1])-1]
+                elif ("/Gear/Weapons/" in content[i] or "/Elemental/" in content[i]):
+                    if ("EPartList" not in content[i] and "/EndGameParts/" not in content[i]):
+                        part = content[i].split("/")
+                        toReturn = toReturn + "\n" + part[-1][:len(part[-1])-1]
+                        for n in range(10,0,-1):
+                            if ("Min" in content[i-n]):
+                                toReturn = toReturn + " - " + content[i-n].strip() + " " + content[i-n+1].strip()
+                                break
+                    
+            return "\nParts: \n" + toReturn +"\n\nAnointments:\n"+anoints+"\n"
+        elif "[Shields]" in target: return compilePartString("Game/Gear/Shields/_Design/", FileContentsAsString)
+        elif "[Grenades]" in target: return compilePartString("Game/Gear/GrenadeMods/_Design/", FileContentsAsString)
+        return FileContentsAsString
+
+# Extracts select information from Partset files. Method Specifically intended for nades and shields.
+def compilePartString(match, FileContentsAsString):
+    toReturn = ""
+    content = FileContentsAsString.split("\n")
+    for i in range(0, len(content)):
+        if (match in content[i]):
+            if ("EPartList" not in content[i]):
+                part = content[i].split("/")
+                toReturn = toReturn + "\n" + part[-1][:len(part[-1])-1]
+                
+                for n in range(0,10):
+                    if ("Min" in content[i-n]):
+                        toReturn = toReturn + " - " + content[i-n].strip() + " " + content[i-n+1].strip()
+                        break
+    return toReturn +"\n"
 
 if __name__ == '__main__':
     EditorHelper().cmdloop()
