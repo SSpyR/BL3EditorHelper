@@ -1,6 +1,6 @@
 # partcheck.py
 # Creator: SSpyR
-# Thanks to Prismatic for Creating the data cleaning functions
+# Thanks to Prismatic for Creating the Data Cleaning Functions
 # Thanks to A Bird for Creating the Initial File System Collection
 
 # Actually make a GUI
@@ -11,7 +11,7 @@
 # Balance Alias: Balance, InvBalD
 # PartSet Alias: PartSet, Partset, InvPartSet, InvPart, BPInvPartSet
 
-# current version = 0.6.0
+# current version = 0.6.5
 
 from cmd import Cmd
 import json
