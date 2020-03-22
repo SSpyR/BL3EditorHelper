@@ -1,6 +1,8 @@
 # Borderlands 3 Part Checker and Editor Helper
 This is a (currently) command line interface python program that allows you to easily search for in-game files for gear and how they are composed in BL3
+
 Big Thanks to A Bird for the Initial File Database
+
 Big Thanks to Prismatic the Data Cleaning Functions
 
 # How to Use
