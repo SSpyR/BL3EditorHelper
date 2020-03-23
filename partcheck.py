@@ -74,11 +74,12 @@ class EditorHelper(Cmd):
         print('Use this to search for PartSet files. \nSimply do bal and then the name of the item you want to get the file for. \nMake sure to reference with the naming command and use the full name of the item (should be one word most of the time)')
 
     # Retrieves anoints relevant to character
-    def do_anoints(self, inp, character):
-        file, target = getPartFile(inp)
+    def do_anoints(self, inp):
+        inparr=inp.split(" ")
+        file, target = getPartFile(inparr[0])
         if file!=0:
             print("Reading from: "+target.split("/")[-1])
-            print(getAnoints(file, target, character))
+            print(getAnoints(file, target, inparr[1]))
     
     # help anoints method
     def help_anoints(self):
