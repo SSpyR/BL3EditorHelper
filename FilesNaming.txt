@@ -10,6 +10,8 @@ WEAPONS
 - Mouthpiece > The Killing Word
 - Skeksis > SkekSil
 - Terror > Agonizer 5000
+- Homicidal > Seeryul Killur
+- Sparky Boom > Stauros' Burn
 
 - Rakkman > Night Flyer
 - Demoskag - Night Hawkin
@@ -42,6 +44,7 @@ WEAPONS
 - Beans > The Boo +
 - NotAFlamethrower > Long Musker ++
 - SpiderMind > Smart Gun XXL
+- Omen > Flama Diddle
 
 - Juliet > Juliet's Dazzle (E-Mail)
 - JulietWorldDrop > Juliet's Dazzle (Drop)
@@ -91,3 +94,7 @@ GRENADES
 - ToyGrenade > Ultraball
 - ButtStallion > Diamond Butt Bomb
 - ObviousTrap > Whispering Ice
+
+ARTIFACTS
+
+- PUK > Pearl of Ineffable Knowledge

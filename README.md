@@ -3,7 +3,7 @@ This is a (currently) command line interface python program that allows you to e
 
 Big Thanks to A Bird for the Initial File Database
 
-Big Thanks to Prismatic the Data Cleaning Functions
+Big Thanks to Prismatic for Being the Main Contributor to the After Works Additions to this Project, It is Improving Thanks to Him
 
 # How to Use
 Download the installer from the Releases page of this Github

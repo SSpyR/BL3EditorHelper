@@ -1,6 +1,6 @@
 # partcheck.py
 # Creator: SSpyR
-# Thanks to Prismatic for Creating the Data Cleaning Functions
+# Main Contributor: Prismatic
 # Thanks to A Bird for Creating the Initial File System Collection
 
 # Actually make a GUI
@@ -11,7 +11,7 @@
 # Balance Alias: Balance, InvBalD
 # PartSet Alias: PartSet, Partset, InvPartSet, InvPart, BPInvPartSet
 
-# current version = 0.6.5
+# current version = 0.7.0
 
 from cmd import Cmd
 import json
@@ -41,22 +41,11 @@ class EditorHelper(Cmd):
     # bal method
     def do_bal(self, inp):
         inp=inp.replace(' ', '_')
-        data=None
         if inp == '':
             print('Please enter a name after the command.')
         else:
-            for root, dirs, files in os.walk(os.getcwd()):
-                for name in files:
-                    if name.startswith('Balance') or name.startswith('InvB'):
-                        if inp.lower() in name.lower():
-                            target=os.path.join(root, name)
-                            with open(target, 'r') as fp:
-                                data=json.load(fp)
-                                response=json.dumps(data, indent=4)
-                                print("\nReading from: "+ target.split("/")[-1])
-                                print(getBal(response, target))
-            if data==None:
-                print('No Balance File for said Item Could be Found.')
+            response, target = getFile(inp, "Balance", "Balance", "InvB")
+            print(getBal(response, target))
 
     # help bal method
     def help_bal(self):
@@ -66,7 +55,6 @@ class EditorHelper(Cmd):
     def do_part(self, inp):
         file, target = getPartFile(inp)
         if file!=0:
-            print("Reading from: "+target.split("/")[-1])
             print(getParts(file, target))
 
     # help part method
@@ -78,12 +66,32 @@ class EditorHelper(Cmd):
         inparr=inp.split(" ")
         file, target = getPartFile(inparr[0])
         if file!=0:
-            print("Reading from: "+target.split("/")[-1])
             print(getAnoints(file, target, inparr[1]))
     
     # help anoints method
     def help_anoints(self):
         print("Use this if you just want a list of anoints relevant to your character \n Do anoints then the item your're interested in followed by one of Amara, Fl4k, Moze or Zane.")
+
+    # List
+    def do_list(self,inp):
+        manufacturer=inp
+        for root, dirs, files in os.walk(os.getcwd()):
+            for dir in dirs:
+                if dir.lower().startswith(manufacturer.lower()):
+                    if "Balance" in os.path.join(root, dir): 
+                        for gun_types in os.walk(os.path.join(root, dir)):
+                            print(gun_types[0].split("/")[-1],end="\n\n")
+                            for gun in gun_types[2]:
+                                gunArr = gun.split("_")
+                                gunArr[-1]=gunArr[-1][0:len(gunArr[-1])-5]
+                                for i in range(1,len(gunArr)):
+                                    print(gunArr[i],end=" ")
+                                print("")
+                            print("")
+
+    # help list method
+    def help_list(self):
+        print("Lists all items by the specified manufacturer. \n EG list Maliwan")
 
 # Extracts select information from Partset files.
 def getParts(FileContentsAsString, target):
@@ -97,13 +105,8 @@ def getParts(FileContentsAsString, target):
                 if len(part)>6:
                     anoints = anoints + "\n" + part[-1][6:len(part[-1])-1]
             elif ("/Gear/Weapons/" in content[i] or "/Elemental/" in content[i]):
-                if ("EPartList" not in content[i] and "/EndGameParts/" not in content[i]):
-                    part = content[i].split("/")
-                    itemParts = itemParts + "\n" + part[-1][:len(part[-1])-1]
-                    for n in range(10,0,-1):
-                        if ("Min" in content[i-n]):
-                            itemParts = itemParts + " - " + content[i-n].strip() + " " + content[i-n+1].strip()
-                            break
+                if "/EndGameParts/" not in content[i]:
+                    itemParts = addPartToList(content, i, itemParts)
         return "\nParts: \n" + itemParts +"\n\nAnointments:\n"+anoints+"\n"
                 
     elif "[Shields]" in target: return compilePartString("Game/Gear/Shields/_Design/", FileContentsAsString)
@@ -122,17 +125,13 @@ def getBal(FileContentsAsString, target):
                 if len(part)>6:
                     anoints = anoints + "\n" + part[-1][6:len(part[-1])-1]
             elif ("/Gear/Weapons/" in content[i] or "/Elemental/" in content[i]):
-                if ("EPartList" not in content[i] and "/EndGameParts/" not in content[i]):
-                    part = content[i].split("/")
-                    itemParts = itemParts + "\n" + part[-1][:len(part[-1])-1]
-                    for n in range(10,0,-1):
-                        if ("Min" in content[i-n]):
-                            itemParts = itemParts + " - " + content[i-n].strip() + " " + content[i-n+1].strip()
-                            break
+                if "/EndGameParts/" not in content[i]:
+                    itemParts = addPartToList(content, i, itemParts)
         return "\nParts: \n" + itemParts +"\n\nAnointments:\n"+anoints+"\n"
 
     elif "[Shields]" in target: return compileBalString("Game/Gear/Shields/_Design/", FileContentsAsString)
     elif "[Grenades]" in target: return compileBalString("Game/Gear/GrenadeMods/_Design/", FileContentsAsString)
+    return FileContentsAsString
 
 # Returns Anoints relevant to the specified character
 def getAnoints(FileContentsAsString, target, character):
@@ -155,6 +154,7 @@ def getAnoints(FileContentsAsString, target, character):
                         elif character=="zane":
                             if part[-1][6] == "O" or part[-1][6] == "C":
                                 anoints = anoints + "\n" + part[-1][16:len(part[-1])-1]
+            elif ("/Gear/Weapons/" in content[i] and "Att_EndGame" not in content[i]): break
         return anoints+"\n"
     return FileContentsAsString
 
@@ -164,28 +164,17 @@ def compilePartString(match, FileContentsAsString):
     content = FileContentsAsString.split("\n")
     for i in range(0, len(content)):
         if (match in content[i]):
-            if ("EPartList" not in content[i]):
-                part = content[i].split("/")
-                itemParts = itemParts + "\n" + part[-1][:len(part[-1])-1]
-                for n in range(0,10):
-                    if ("Min" in content[i-n]):
-                        itemParts = itemParts + " - " + content[i-n].strip() + " " + content[i-n+1].strip()
-                        break
+            itemParts = addPartToList(content, i, itemParts)
     return itemParts +"\n"
 
 # Extracts select information from balance files. Method Specifically intended for nades and shields.
 def compileBalString(match, FileContentsAsString):
     itemParts, anoints = "", ""
     content = FileContentsAsString.split("\n")
+
     for i in range(0, len(content)):
         if (match in content[i]):
-            if ("EPartList" not in content[i]):
-                part = content[i].split("/")
-                itemParts = itemParts + "\n" + part[-1][:len(part[-1])-1]                
-                for n in range(0,10):
-                    if ("Min" in content[i-n]):
-                        itemParts = itemParts + " - " + content[i-n].strip() + " " + content[i-n+1].strip()
-                        break
+            itemParts = addPartToList(content, i, itemParts)
         elif ("/EndGameParts/" in content[i] and "PartChance" not in content[i]):
                 part = content[i].split("/")
                 if len(part)>6:
@@ -195,24 +184,36 @@ def compileBalString(match, FileContentsAsString):
 # Fetches the partset file and reads it into a string.
 def getPartFile(inp):
     inp=inp.replace(' ', '_')
-    data=None
     if inp == '':
         print('Please enter a name after the command.')
         return 0, 0
     else:
-        for root, dirs, files in os.walk(os.getcwd()):
-            for name in files:
-                if name.startswith('Part') or name.startswith('InvPart') or name.startswith('BPInvPart'):
-                    if inp.lower() in name.lower():
-                        target=os.path.join(root, name)
-                        with open(target, 'r') as fp:
-                            data=json.load(fp)
-                            response=json.dumps(data, indent=4)
-                            return response, target
-        if data==None:
-            print('No PartSet File for said Item Could be Found.')
+        response, target = getFile(inp, "PartSet", "Part", "InvPart", "BPInvPart")
+        return response, target
+
+def getFile(file, searchType, match1, match2, match3="ZZZ"):
+    data=None
+    for root, dirs, files in os.walk(os.getcwd()):
+        for name in files:
+            if name.startswith(match1) or name.startswith(match2) or name.startswith(match3):
+                if file.lower() in name.lower():
+                    target=os.path.join(root, name)
+                    with open(target, 'r') as fp:
+                        data=json.load(fp)
+                        response=json.dumps(data, indent=4)
+                        print("\nReading from: "+ target.split("/")[-1])
+                        return response, target
+    if data==None:
+            print('No ' + searchType + ' File for said Item Could be Found.')
             return 0, 0
 
+def addPartToList(content, i, itemParts):
+    if ("EPartList" not in content[i]):
+        part = content[i].split("/")
+        itemParts = itemParts + "\n" + part[-1][:len(part[-1])-1]                
+        if ("Min" in content[i-8]):
+            itemParts = itemParts + " - " + content[i-8].strip() + " " + content[i-7].strip()
+    return itemParts
 
 if __name__ == '__main__':
     EditorHelper().cmdloop()
