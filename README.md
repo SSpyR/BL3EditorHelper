@@ -5,6 +5,8 @@ Big Thanks to A Bird for the Initial File Database
 
 Big Thanks to Prismatic for Being the Main Contributor to the After Works Additions to this Project, It is Improving Thanks to Him
 
+Note: If The Program Crashes After Executing a Command Then it is Most Likely Due to an Incorrect Name (Also Multiple Words Occasionally, Looking Into This)
+
 # How to Use
 Download the installer from the Releases page of this Github
 

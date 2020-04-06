@@ -11,12 +11,14 @@
 # Balance Alias: Balance, InvBalD
 # PartSet Alias: PartSet, Partset, InvPartSet, InvPart, BPInvPartSet
 
-# current version = 0.7.0
+# current version = 0.8.5
 
 from cmd import Cmd
 import json
 import os
 import assets
+
+import xlrd as xls
 
 class EditorHelper(Cmd):
     prompt='bl3edit> '
@@ -74,7 +76,6 @@ class EditorHelper(Cmd):
 
     # List
     def do_list(self,inp):
-        manufacturer=inp
         for root, dirs, files in os.walk(os.getcwd()):
             for dir in dirs:
                 if dir.lower().startswith(manufacturer.lower()):
@@ -91,7 +92,55 @@ class EditorHelper(Cmd):
 
     # help list method
     def help_list(self):
-        print("Lists all items by the specified manufacturer. \n EG list Maliwan")
+        print("Lists all itmes by the specified manufacturer. \n EG list Maliwan")
+
+    # provides part info
+    def do_partinfo(self, inp):
+        file, target = getPartFile(inp)
+        if "Weapons" in target and file!=0:
+            print(" ")
+            partsSTR = getParts(file, target)
+            parts = partsSTR.split("\n")
+            part_info_book = xls.open_workbook("part_info.xlsx") 
+
+            sheet = parts[3].split(" ")[0][5:11]
+            try: gunTypeInfo = part_info_book.sheet_by_name(sheet)
+            except:
+                sheetArr = sheet.split("_")
+                sheet = sheetArr[1]+"_"+sheetArr[0]
+                gunTypeInfo = part_info_book.sheet_by_name(sheet)
+            
+            length = gunTypeInfo.nrows
+            for i in range(3, len(parts)-3):
+                if parts[i][0:4]!="Part": break
+                for n in range(1, length):
+                    if parts[i].split(" ")[0] in gunTypeInfo.cell_value(n, 0):
+                        print(parts[i])
+                        if gunTypeInfo.cell_value(n, 4)!="": print("    " + gunTypeInfo.cell_value(n, 4))
+                        if gunTypeInfo.cell_value(n, 3)!="": print("    " + gunTypeInfo.cell_value(n, 3))
+                        if gunTypeInfo.cell_value(n, 1)!="": print("    " + gunTypeInfo.cell_value(n, 1))
+                        if gunTypeInfo.cell_value(n, 2)!="": print("    " + gunTypeInfo.cell_value(n, 2))
+                        print("")
+
+    # Lists artifact stats
+    def do_artifacts(self, inp):
+        part_info_book = xls.open_workbook("part_info.xlsx") 
+        artifact = part_info_book.sheet_by_name("Artifact")
+        length = artifact.nrows
+        i = 59
+        while i<length and artifact.cell_value(i, 0)!="":
+            print(artifact.cell_value(i, 0).split(".")[0] + "\n" + artifact.cell_value(i, 1), end="\n\n")
+            i += 1
+        
+        i=51
+        print("\n -------------------------------------------- \nThese stats replace section A on artifacts by the same name")
+        while artifact.cell_value(i, 0)!="":
+            print(artifact.cell_value(i, 0).split(".")[0] + "\n    " + artifact.cell_value(i, 1), end="\n\n")
+            i += 1
+
+    # help partinfo method
+    def help_partinfo(self):
+        print("Lists all parts and their effects on the weapon, please be aware this database was built by players and is liable to have mistakes or be outdated. Use with discretion.")
 
 # Extracts select information from Partset files.
 def getParts(FileContentsAsString, target):
