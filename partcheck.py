@@ -142,6 +142,27 @@ class EditorHelper(Cmd):
     def help_partinfo(self):
         print("Lists all parts and their effects on the weapon, please be aware this database was built by players and is liable to have mistakes or be outdated. Use with discretion.")
 
+    def do_shields(self):
+        part_info_book = xls.open_workbook("part_info.xlsx") 
+        shield = part_info_book.sheet_by_name("Shield")
+            
+        if ("p" in inp):
+            length = shield.nrows
+            i = 23
+            while i<length and shield.cell_value(i, 0)!="":
+                print(shield.cell_value(i, 0).split(".")[0] + "\n" + shield.cell_value(i, 1), end="\n\n")
+                i += 1
+            print("\n---------------------------------------------------------------------------------------- \n")
+            
+        i=65
+        print()
+        while shield.cell_value(i, 0)!="":
+            print(shield.cell_value(i, 0).split(".")[0] + "\n    " + shield.cell_value(i, 1), end="\n\n")
+            i += 1
+
+    def help_shield(self):
+        print("Lists Shield parts and their effects")
+
 # Extracts select information from Partset files.
 def getParts(FileContentsAsString, target):
     itemParts, anoints = "", ""
@@ -149,13 +170,14 @@ def getParts(FileContentsAsString, target):
         content = FileContentsAsString.split("\n")
         
         for i in range(0, len(content)):
-            if ("GPart_" in content[i]):
-                part = content[i].split("/")
-                if len(part)>6:
-                    anoints = anoints + "\n" + part[-1][6:len(part[-1])-1]
-            elif ("/Gear/Weapons/" in content[i] or "/Elemental/" in content[i]):
-                if "/EndGameParts/" not in content[i]:
-                    itemParts = addPartToList(content, i, itemParts)
+            if ("PartData" in content[i]):
+                if ("GPart_" in content[i+2]):
+                    part = content[i+2].split("/")
+                    if len(part)>6:
+                        anoints = anoints + "\n" + part[-1][6:len(part[-1])-1]
+                elif ("/Gear/Weapons/" in content[i+2] or "/Elemental/" in content[i]):
+                    if "/EndGameParts/" not in content[i+2]:
+                        itemParts = addPartToList(content, i+2, itemParts)
         return "\nParts: \n" + itemParts +"\n\nAnointments:\n"+anoints+"\n"
                 
     elif "[Shields]" in target: return compilePartString("Game/Gear/Shields/_Design/", FileContentsAsString)
