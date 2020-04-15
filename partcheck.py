@@ -103,7 +103,7 @@ class EditorHelper(Cmd):
             parts = partsSTR.split("\n")
             part_info_book = xls.open_workbook("part_info.xlsx") 
 
-            sheet = parts[3].split(" ")[0][5:11]
+            sheet = parts[3].upper().split(" ")[0][5:11]
             try: gunTypeInfo = part_info_book.sheet_by_name(sheet)
             except:
                 sheetArr = sheet.split("_")
@@ -142,24 +142,24 @@ class EditorHelper(Cmd):
     def help_partinfo(self):
         print("Lists all parts and their effects on the weapon, please be aware this database was built by players and is liable to have mistakes or be outdated. Use with discretion.")
 
+    # lists shield parts
     def do_shields(self):
         part_info_book = xls.open_workbook("part_info.xlsx") 
         shield = part_info_book.sheet_by_name("Shield")
             
-        if ("p" in inp):
-            length = shield.nrows
-            i = 23
-            while i<length and shield.cell_value(i, 0)!="":
-                print(shield.cell_value(i, 0).split(".")[0] + "\n" + shield.cell_value(i, 1), end="\n\n")
-                i += 1
-            print("\n---------------------------------------------------------------------------------------- \n")
+        length = shield.nrows
+        i = 23
+        while i<length and shield.cell_value(i, 0)!="":
+            print(shield.cell_value(i, 0).split(".")[0] + "\n" + shield.cell_value(i, 1), end="\n\n")
+            i += 1
+        print("\n---------------------------------------------------------------------------------------- \n")
             
         i=65
         print()
         while shield.cell_value(i, 0)!="":
             print(shield.cell_value(i, 0).split(".")[0] + "\n    " + shield.cell_value(i, 1), end="\n\n")
             i += 1
-
+    # help shield method
     def help_shield(self):
         print("Lists Shield parts and their effects")
 
