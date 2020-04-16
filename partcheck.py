@@ -47,7 +47,7 @@ class EditorHelper(Cmd):
             print('Please enter a name after the command.')
         else:
             response, target = getFile(inp, "Balance", "Balance", "InvB")
-            print(getParts(response, target))
+            print(sortDuplicates(getParts(response, target)))
 
     # help bal method
     def help_bal(self):
@@ -57,7 +57,7 @@ class EditorHelper(Cmd):
     def do_part(self, inp):
         file, target = getPartFile(inp)
         if file!=0:
-            print(getParts(file, target))
+            print(sortDuplicates(getParts(response, target)))
 
     # help part method
     def help_part(self):
@@ -255,6 +255,23 @@ def addPartToList(content, i, itemParts):
     if ("Min" in content[i-7]):
         itemParts = itemParts + " - " + content[i-7].strip() + " " + content[i-6].strip()
     return itemParts
+
+def sortDuplicates(stringInput):
+    stringArr = stringInput.split("\n")
+    toReturn = stringArr[0]
+    line = 1
+    while line < len(stringArr)-2:
+        if len(stringArr[line])<3: toReturn = toReturn + "\n"
+        else:
+            if stringArr[line+1] in stringArr[line] and len(stringArr[line+1])>3:
+                if stringArr[line+2] in stringArr[line]:
+                    toReturn = toReturn + "\n    3x " + stringArr[line]
+                    line=line+1
+                else: toReturn = toReturn + "\n    2x " + stringArr[line]
+                line=line+1
+            else: toReturn = toReturn + "\n    " + stringArr[line]
+        line=line+1
+    return toReturn
 
 if __name__ == '__main__':
     EditorHelper().cmdloop()
