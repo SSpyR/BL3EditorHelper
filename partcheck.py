@@ -122,6 +122,7 @@ class EditorHelper(Cmd):
                         if gunTypeInfo.cell_value(n, 1)!="": print("    " + gunTypeInfo.cell_value(n, 1))
                         if gunTypeInfo.cell_value(n, 2)!="": print("    " + gunTypeInfo.cell_value(n, 2))
                         print("")
+                        break
 
     # Lists artifact stats
     def do_artifacts(self, inp):
