@@ -98,8 +98,8 @@ class EditorHelper(Cmd):
     # provides part info
     def do_partinfo(self, inp):
         file, target = getPartFile(inp)
+        toReturn = ""
         if "Weapons" in target and file!=0:
-            print(" ")
             partsSTR = getParts(file, target)
             parts = partsSTR.split("\n")
             part_info_book = xls.open_workbook("part_info.xlsx") 
@@ -116,13 +116,15 @@ class EditorHelper(Cmd):
                 if parts[i][0:4]!="Part": break
                 for n in range(1, length):
                     if parts[i].split(" ")[0] in gunTypeInfo.cell_value(n, 0):
-                        print(parts[i])
-                        if gunTypeInfo.cell_value(n, 4)!="": print("    " + gunTypeInfo.cell_value(n, 4))
-                        if gunTypeInfo.cell_value(n, 3)!="": print("    " + gunTypeInfo.cell_value(n, 3))
-                        if gunTypeInfo.cell_value(n, 1)!="": print("    " + gunTypeInfo.cell_value(n, 1))
-                        if gunTypeInfo.cell_value(n, 2)!="": print("    " + gunTypeInfo.cell_value(n, 2))
-                        print("")
+                        toReturn = toReturn + "\n"+parts[i]
+                        if gunTypeInfo.cell_value(n, 4)!="": toReturn = toReturn + "\n"+"    " + gunTypeInfo.cell_value(n, 4)
+                        if gunTypeInfo.cell_value(n, 3)!="": toReturn = toReturn + "\n"+"    " + gunTypeInfo.cell_value(n, 3)
+                        if gunTypeInfo.cell_value(n, 1)!="": toReturn = toReturn + "\n"+"    " + gunTypeInfo.cell_value(n, 1)
+                        if gunTypeInfo.cell_value(n, 2)!="": toReturn = toReturn + "\n"+"    " + gunTypeInfo.cell_value(n, 2)
+                        toReturn = toReturn + "\n"
                         break
+            print(addExcluders(toReturn))
+        else: print("Sorry Part info can only be displaeyd for weapons currently, try 'shield' or 'art' as a command")
 
     # Lists artifact stats
     def do_artifacts(self, inp):
@@ -272,6 +274,34 @@ def sortDuplicates(stringInput):
                 line=line+1
             else: toReturn = toReturn + "\n    " + stringArr[line]
         line=line+1
+    return toReturn
+
+def addExcluders(PartInfoStr):
+    parts = PartInfoStr.split("\n")
+    excluder_book = xls.open_workbook("dependencies.xlsx") 
+    gunPartInfo = excluder_book.sheet_by_name("Weapons")
+
+    length = gunPartInfo.nrows
+    for i in range(3, len(parts)-1):
+        if parts[i][0:4] =="Part":
+            for n in range(1, length):
+                if parts[i].split(" ")[0] in gunPartInfo.cell_value(n, 8):
+                    p=i
+                    for m in range(i, i+5):
+                        if len(parts[m])<2: 
+                            p=m
+                            break
+                    try: 
+                        if gunPartInfo.cell_value(n, 9)!="": parts[p]=parts[p] + "    Requires: " + gunPartInfo.cell_value(n, 9) + "\n"
+                    except: pass
+                    try: 
+                        if gunPartInfo.cell_value(n, 10)!="": parts[p]=parts[p] + "    Excludes: " + gunPartInfo.cell_value(n, 10) + "\n"
+                    except: pass
+                    break
+    
+    toReturn = ""
+    for line in parts:
+        toReturn = toReturn + "\n"+line
     return toReturn
 
 if __name__ == '__main__':
