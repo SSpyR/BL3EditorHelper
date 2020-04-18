@@ -57,7 +57,7 @@ class EditorHelper(Cmd):
     def do_part(self, inp):
         file, target = getPartFile(inp)
         if file!=0:
-            print(sortDuplicates(getParts(response, target)))
+            print(sortDuplicates(getParts(file, target)))
 
     # help part method
     def help_part(self):
@@ -126,54 +126,58 @@ class EditorHelper(Cmd):
             print(addDependencyInfo(toReturn))
         else: print("Sorry Part info can only be displaeyd for weapons currently, try 'shield' or 'art' as a command")
 
-    # Lists artifact stats
-    def do_artifacts(self, inp):
-        part_info_book = xls.open_workbook("part_info.xlsx") 
-        artifact = part_info_book.sheet_by_name("Artifact")
-        length = artifact.nrows
-        i = 59
-        while i<length and artifact.cell_value(i, 0)!="":
-            print(artifact.cell_value(i, 0).split(".")[0] + "\n" + artifact.cell_value(i, 1), end="\n\n")
-            i += 1
-        
-        i=51
-        print("\n -------------------------------------------- \nThese stats replace section A on artifacts by the same name")
-        while artifact.cell_value(i, 0)!="":
-            print(artifact.cell_value(i, 0).split(".")[0] + "\n    " + artifact.cell_value(i, 1), end="\n\n")
-            i += 1
-
     # help partinfo method
     def help_partinfo(self):
         print("Lists all parts and their effects on the weapon, please be aware this database was built by players and is liable to have mistakes or be outdated. Use with discretion.")
 
-    # lists shield parts
-    def do_shields(self):
-        part_info_book = xls.open_workbook("part_info.xlsx") 
-        shield = part_info_book.sheet_by_name("Shield")
+    # # Lists artifact stats
+    # def do_artifacts(self):
+    #     part_info_book = xls.open_workbook("part_info.xlsx") 
+    #     artifact = part_info_book.sheet_by_name("Artifact")
+    #     length = artifact.nrows
+    #     i = 59
+    #     while i<length and artifact.cell_value(i, 0)!="":
+    #         print(artifact.cell_value(i, 0).split(".")[0] + "\n" + artifact.cell_value(i, 1), end="\n\n")
+    #         i += 1
+        
+    #     i=51
+    #     print("\n -------------------------------------------- \nThese stats replace section A on artifacts by the same name")
+    #     while artifact.cell_value(i, 0)!="":
+    #         print(artifact.cell_value(i, 0).split(".")[0] + "\n    " + artifact.cell_value(i, 1), end="\n\n")
+    #         i += 1
+
+    # # help shield method
+    # def help_artifacts(self):
+    #     print("Lists artifact parts, their effects and the stat rolls that are possible.")
+
+    # # lists shield parts
+    # def do_shield(self):
+    #     part_info_book = xls.open_workbook("part_info.xlsx") 
+    #     shield = part_info_book.sheet_by_name("Shield")
             
-        length = shield.nrows
-        i = 23
-        while i<length and shield.cell_value(i, 0)!="":
-            print(shield.cell_value(i, 0).split(".")[0] + "\n" + shield.cell_value(i, 1), end="\n\n")
-            i += 1
-        print("\n---------------------------------------------------------------------------------------- \n")
+    #     length = shield.nrows
+    #     i = 23
+    #     while i<length and shield.cell_value(i, 0)!="":
+    #         print(shield.cell_value(i, 0).split(".")[0] + "\n" + shield.cell_value(i, 1), end="\n\n")
+    #         i += 1
+    #     print("\n---------------------------------------------------------------------------------------- \n")
             
-        i=65
-        print()
-        while shield.cell_value(i, 0)!="":
-            print(shield.cell_value(i, 0).split(".")[0] + "\n    " + shield.cell_value(i, 1), end="\n\n")
-            i += 1
+    #     i=65
+    #     print()
+    #     while i<length and shield.cell_value(i, 0)!="":
+    #         print(shield.cell_value(i, 0).split(".")[0] + "\n    " + shield.cell_value(i, 1), end="\n\n")
+    #         i += 1
    
-    # help shield method
-    def help_shield(self):
-        print("Lists Shield parts and their effects")
+    # # help shield method
+    # def help_shield(self):
+    #     print("Lists Shield parts and their effects")
 
     # prints the partset in full
     def do_partSet(self, inp):
         response, target = getPartFile(inp)
         print(response)
 
-    def help_partset(self):
+    def help_partSet(self):
         print("prints the partset in full")
     
     # prints the balance in full
