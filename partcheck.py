@@ -123,7 +123,7 @@ class EditorHelper(Cmd):
                         if gunTypeInfo.cell_value(n, 2)!="": toReturn = toReturn + "\n"+"    " + gunTypeInfo.cell_value(n, 2)
                         toReturn = toReturn + "\n"
                         break
-            print(addExcluders(toReturn))
+            print(addDependencyInfo(toReturn))
         else: print("Sorry Part info can only be displaeyd for weapons currently, try 'shield' or 'art' as a command")
 
     # Lists artifact stats
@@ -276,7 +276,7 @@ def sortDuplicates(stringInput):
         line=line+1
     return toReturn
 
-def addExcluders(PartInfoStr):
+def addDependencyInfo(PartInfoStr):
     parts = PartInfoStr.split("\n")
     excluder_book = xls.open_workbook("dependencies.xlsx") 
     gunPartInfo = excluder_book.sheet_by_name("Weapons")
@@ -291,6 +291,9 @@ def addExcluders(PartInfoStr):
                         if len(parts[m])<2: 
                             p=m
                             break
+                    try: 
+                        if gunPartInfo.cell_value(n, 7)!=1:parts[p]=parts[p] + "    Weight: " + str(gunPartInfo.cell_value(n, 7 )) + "\n"
+                    except: pass
                     try: 
                         if gunPartInfo.cell_value(n, 9)!="": parts[p]=parts[p] + "    Requires: " + gunPartInfo.cell_value(n, 9) + "\n"
                     except: pass
