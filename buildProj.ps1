@@ -7,7 +7,7 @@ rmdir -Recurse .\build -erroraction ignore
 rmdir -Recurse .\dist -erroraction ignore
 del BL3EditorHelper.spec -erroraction ignore
 
-pyinstaller -y --add-data="C:\Users\lavoiet2\Downloads\Coding\BL3EditorHelper\assets;." --add-data="FilesNaming.txt;." --add-data="part_info.xlsx;." .\partcheck.py
+pyinstaller -y --add-data="C:\Users\lavoiet2\Downloads\Coding\BL3EditorHelper\assets;." --add-data="FilesNaming.txt;." --add-data="part_info.xlsx;." --add-data="dependencies.xlsx;." .\partcheck.py
 
 #Open PowerShell as Admin, cd C:\Users\lavoiet2\Downloads\Coding\BL3EditorHelper, .\buildProj.ps1
 # (powershell -ExecutionPolicy ByPass -File buildProj.ps1) <- this if not signed
