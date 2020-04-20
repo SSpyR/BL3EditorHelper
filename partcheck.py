@@ -11,7 +11,7 @@
 # Balance Alias: Balance, InvBalD
 # PartSet Alias: PartSet, Partset, InvPartSet, InvPart, BPInvPartSet
 
-# current version = 0.8.5
+# current version = 0.9.5
 
 from cmd import Cmd
 import json
