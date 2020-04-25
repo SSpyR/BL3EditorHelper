@@ -2,6 +2,8 @@ WEAPONS
 
 - Drill > Linc
 - Warmonger > Peacemonger
+- DoubleTap > Multi-Tap
+- OPQ > O.P.Q. System
 
 - Krieg AR > Embrace the Pain/Pain is Power
 - Trash > Brad Luck
@@ -57,6 +59,7 @@ WEAPONS
 - Swarm > Scourge
 - Brewha > Black Flame
 - Balrog > Chomper
+- Plague > Plaguebearer
 
 - Damn > Damned
 - CloudBurst - Jericho
