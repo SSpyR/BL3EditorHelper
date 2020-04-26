@@ -11,7 +11,7 @@
 # Balance Alias: Balance, InvBalD
 # PartSet Alias: PartSet, Partset, InvPartSet, InvPart, BPInvPartSet
 
-# current version = 1.0.0
+# current version = 1.0.1
 
 from cmd import Cmd
 import json
@@ -23,6 +23,12 @@ import xlrd as xls
 class EditorHelper(Cmd):
     prompt='bl3edit> '
     intro='Welcome to the BL3 Item Editor Helper! Use the help command to get started.'
+
+    def onecmd(self, line):
+        try:
+            return super().onecmd(line)
+        except:
+            return False # don't stop
 
     # exit method
     def do_exit(self, inp):
