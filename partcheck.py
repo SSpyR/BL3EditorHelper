@@ -103,7 +103,7 @@ class EditorHelper(Cmd):
 
     # provides part info
     def do_partinfo(self, inp):
-        file, target = getPartFile(inp)
+        file, target = getBalance(inp)
         toReturn = ""
         if "Weapons" in target and file!=0:
             partsSTR = getParts(file, target)
@@ -244,6 +244,16 @@ def getPartFile(inp):
         return 0, 0
     else:
         response, target = getFile(inp, "PartSet", "Part", "InvPart", "BPInvPart")
+        return response, target
+
+# Fetches the balance file and reads it into a string.
+def getBalance(inp):
+    inp=inp.replace(' ', '_')
+    if inp == '':
+        print('Please enter a name after the command.')
+        return 0, 0
+    else:
+        response, target = getFile(inp, "Balance", "Balance", "InvB")
         return response, target
 
 def getFile(file, searchType, match1, match2, match3="ZZZ"):
