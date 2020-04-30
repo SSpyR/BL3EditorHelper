@@ -103,12 +103,14 @@ class EditorHelper(Cmd):
 
     # provides part info
     def do_partinfo(self, inp):
-        file, target = getBalance(inp)
+        file, target = getPartFile(inp)
+        bal, target = getBalance(inp)
         toReturn = ""
         if "Weapons" in target and file!=0:
             partsSTR = getParts(file, target)
+            balSTR = getParts(bal, target)
             parts = partsSTR.split("\n")
-            part_info_book = xls.open_workbook("part_info.xlsx") 
+            part_info_book = xls.open_workbook("part_info.xlsx", on_demand=True) 
 
             sheet = parts[3].upper().split(" ")[0][5:11]
             try: gunTypeInfo = part_info_book.sheet_by_name(sheet)
@@ -120,15 +122,17 @@ class EditorHelper(Cmd):
             length = gunTypeInfo.nrows
             for i in range(3, len(parts)-3):
                 if parts[i][0:4]!="Part": break
-                for n in range(1, length):
-                    if parts[i].split(" ")[0] in gunTypeInfo.cell_value(n, 0):
-                        toReturn = toReturn + "\n"+parts[i]
-                        if gunTypeInfo.cell_value(n, 4)!="": toReturn = toReturn + "\n"+"    " + gunTypeInfo.cell_value(n, 4)
-                        if gunTypeInfo.cell_value(n, 3)!="": toReturn = toReturn + "\n"+"    " + gunTypeInfo.cell_value(n, 3)
-                        if gunTypeInfo.cell_value(n, 1)!="": toReturn = toReturn + "\n"+"    " + gunTypeInfo.cell_value(n, 1)
-                        if gunTypeInfo.cell_value(n, 2)!="": toReturn = toReturn + "\n"+"    " + gunTypeInfo.cell_value(n, 2)
-                        toReturn = toReturn + "\n"
-                        break
+                elif parts[i].split(" ")[0] not in balSTR: pass
+                else:
+                    toReturn = toReturn + "\n"+parts[i]
+                    for n in range(1, length):
+                        if parts[i].split(" ")[0] in gunTypeInfo.cell_value(n, 0):
+                            if gunTypeInfo.cell_value(n, 4)!="": toReturn = toReturn + "\n"+"    " + gunTypeInfo.cell_value(n, 4)
+                            if gunTypeInfo.cell_value(n, 3)!="": toReturn = toReturn + "\n"+"    " + gunTypeInfo.cell_value(n, 3)
+                            if gunTypeInfo.cell_value(n, 1)!="": toReturn = toReturn + "\n"+"    " + gunTypeInfo.cell_value(n, 1)
+                            if gunTypeInfo.cell_value(n, 2)!="": toReturn = toReturn + "\n"+"    " + gunTypeInfo.cell_value(n, 2)
+                            break
+                    toReturn = toReturn + "\n"
             print(addDependencyInfo(toReturn))
         else: print("Sorry Part info can only be displaeyd for weapons currently, try 'shield' or 'art' as a command")
 
